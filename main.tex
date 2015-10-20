@@ -1,0 +1,196 @@
+%% RiSE Latex Template - version 0.5
+%%
+%% RiSE's latex template for thesis and dissertations
+%% http://risetemplate.sourceforge.net
+%%
+%% (c) 2012 Yguaratã Cerqueira Cavalcanti (yguarata@gmail.com)
+%%          Vinicius Cardoso Garcia (vinicius.garcia@gmail.com)
+%%
+%% This document was initially based on UFPEThesis template, from Paulo Gustavo
+%% S. Fonseca.
+%%
+%% ACKNOWLEDGEMENTS
+%%
+%% We would like to thanks the RiSE's researchers community, the 
+%% students from Federal University of Pernambuco, and other users that have
+%% been contributing to this projects with comments and patches.
+%%
+%% GENERAL INSTRUCTIONS
+%%
+%% We strongly recommend you to compile your documents using pdflatex command.
+%% It is also recommend use the texlipse plugin for Eclipse to edit your documents.
+%%
+%% Options for \documentclass command:
+%%         * Idiom
+%%           pt   - Portguese (default)
+%%           en   - English
+%%
+%%         * Text type
+%%           bsc  - B.Sc. Thesis
+%%           msc  - M.Sc. Thesis (default)
+%%           qual - PHD qualification (not tested yet)
+%%           prop - PHD proposal (not tested yet)
+%%           phd  - PHD thesis
+%%
+%%         * Media
+%%           scr  - to eletronic version (PDF) / see the users guide
+%%
+%%         * Pagination
+%%           oneside - unique face press
+%%           twoside - two faces press
+%%
+%%		   * Line spacing
+%%           singlespacing  - the same as using \linespread{1}
+%%           onehalfspacing - the same as using \linespread{1.3}
+%%           doublespacing  - the same as using \linespread{1.6}
+%%
+%% Reference commands. Use the following commands to make references in your
+%% text:
+%%          \figref  -- for Figure reference
+%%          \tabref  -- for Table reference
+%%          \eqnref  -- for equation reference
+%%          \chapref -- for chapter reference
+%%          \secref  -- for section reference
+%%          \appref  -- for appendix reference
+%%          \axiref  -- for axiom reference
+%%          \conjref -- for conjecture reference
+%%          \defref  -- for definition reference
+%%          \lemref  -- for lemma reference
+%%          \theoref -- for theorem reference
+%%          \corref  -- for corollary reference
+%%          \propref -- for proprosition reference
+%%          \pgref   -- for page reference
+%%
+%%          Example: See \chapref{chap:introduction}. It will produce 
+%%                   'See Chapter 1', in case of English language.
+
+\documentclass[en,twoside,onehalfspacing,bsc]{risethesis}
+
+\usepackage{natbib}
+\usepackage{babel}
+\usepackage{supertabular}
+\usepackage{microtype}
+\usepackage{lscape}
+ 
+
+
+%% Change the following pdf author attribute name to your name.
+\usepackage[linkcolor=blue,citecolor=blue,urlcolor=blue,colorlinks,pdfpagelabels,pdftitle={Karla
+Malta's Bachelor Thesis},pdfauthor={Karla Malta}]{hyperref}
+
+\address{SALVADOR}
+
+\universitypt{Universidade Federal da Bahia}
+\universityen{Federal University of Bahia}
+
+\departmentpt{Depertamento de Ci\^{e}ncia da Computa\c{c}\~{a}o}
+\departmenten{Computer Science Department}
+
+\programpt{Programa Multiinstitucional de P\'{o}s-gradua\c{c}\~{a}o em Ci\^{e}ncia da Computa\c{c}\~{a}o}
+\programen{Bachelor's Degree in Computer Science}
+
+\majorfieldpt{Ci\^{e}ncia da Computa\c{c}\~{a}o}
+\majorfielden{Computer Science}
+
+\title{TITLE}
+\date{November/2015}
+
+\author{Karla Malta Amorim da Silva}
+\adviser{Eduardo Santana de Almeida}
+\coadviser{Raphael Pereira de Oliveira}
+
+\begin{document}
+
+\frontmatter
+\frontpage
+\presentationpage
+
+\begin{dedicatory}
+I dedicate this dissertation to my family, friends and
+professors who gave me all necessary support to get here.
+\end{dedicatory}
+
+\acknowledgements
+Agradeço a Deus por ter me dado oportunidade de realizar este trabalho, saúde
+e energia para superar todas as dificuldades. Também por cada uma das pessoas
+citadas abaixo, que de alguma forma contribuíram para que essa conquista fosse possível.
+
+Agradeço aos meus pais, José Carlos e Suely, por tudo que me ensinaram, por
+acreditarem em mim e por todo suporte e incentivo para a minha formação
+pessoal e profissional. À minha irmã, Karoline, pela sinceridade e amizade. Ao
+meu namorado, Heitor, pela cumplicidade, carinho e companhia.
+
+Agradeço ao meu orientador, Dr. Eduardo Almeida, por investir em mim e guiar o
+meu trabalho. Agradeço também ao meu co-orientador, Dr. Raphael Oliveira, pela
+disponibilidade e por compartilhar seus conhecimentos e experiências de vida.
+
+Agradeço a todos os docentes do Departamento de Ciência da Computação com
+quem tive a oportunidade de aprender durante os anos do curso de Ciência da
+Computação, especialmente à Dra. Aline Andrade, pelos seus conselhos e
+orientação. Agradeço ao Dr. Luciano Oliveira, pela excelência do seu
+trabalho como professor e  coordenador do curso.  Agradeço também ao Dr. John
+McGregor por me receber no seu grupo de pesquisa e orientar durante o meu
+estágio de verão na Universidade de Clemson (USA), onde fiz minha graduação sanduíche.
+
+Agradeço aos meu amigos que influenciaram positivamente e participaram direta ou
+indiretamente da minha formação: Nanci Bomfim, Melissa Wen, Laiza Camurugy,
+Gabriel Uaquim, Rodrigo Vieira, Félix Farias, Caio Almeida e Diego Arize.
+Agradeço também à minha amiga Marie Cudd por me adotar em Clemson e marcar
+minha vida de uma forma extraordinária.
+
+Agradeço à Universidade Federal da Bahia por me proporcionar esta formação,
+à Fapesb, pela bolsa de Iniciação a Extensão, à Capes pela bolsa do
+programa Ciência sem Fronteiras, e às instituições onde estagiei, EcGlobalPanel,
+IFBA, TecnoTrends e Ericsson Inovação. 
+
+
+\begin{epigraph}[]{Proverbs 3:13}
+Blessed is the man who finds wisdom, the man who gains understanding. 
+\end{epigraph}
+
+\resumo
+% Escreva seu resumo no arquivo resumo.tex
+\input{resumo}
+
+\abstract
+% Write your abstract in a file called abstract.tex
+\input{abstract}
+
+% Summary (tables of contents)
+\tableofcontents
+
+% List of figures
+\listoffigures
+
+% List of tables
+\listoftables
+
+% List of acronyms
+% Acronyms manual: http://linorg.usp.br/CTAN/macros/latex/contrib/acronym/acronym.pdf
+\listofacronyms
+\input{acronyms}
+
+% List of listings
+%\lstlistoflistings
+
+\mainmatter
+
+\include{chapters/introduction/main}
+\include{chapters/background/main}
+\include{chapters/proposed_solution/main}
+\include{chapters/experiment/main}
+\include{chapters/conclusion/main}
+
+
+\bibliographystyle{natbib}
+\addcontentsline{toc}{chapter}{\bibliographytocname}
+\bibliography{references}
+
+% Appendix
+\clearpage
+\addappheadtotoc
+\appendix
+\appendixpage
+\include{appendix/experiment-instruments}
+
+\end{document}
