@@ -114,6 +114,12 @@ Cavalcanti, Y.~C., do~Carmo~Machado, I., da~Mota Silveira~Neto, P.~A., and
   Variability and Traceability over SPL Disciplines, pages 3--22.
 \newblock InTech.
 
+\bibitem[Cheng and Atlee(2007)Cheng and Atlee]{cheng2007research}
+Cheng, B.~H. and Atlee, J.~M. (2007).
+\newblock Research directions in requirements engineering.
+\newblock In {\em 2007 Future of Software Engineering\/}, pages 285--303. IEEE
+  Computer Society.
+
 \bibitem[Chhibber {\em et~al.}(1992)Chhibber, Apostolakis, and
   Okrent]{Chhibber1992}
 Chhibber, S., Apostolakis, G., and Okrent, D. (1992).
@@ -208,16 +214,6 @@ Kitchenham, B. and Pfleeger, S. (2008).
 \newblock Personal opinion surveys.
 \newblock In F.~Shull, J.~Singer, and D.~Sjøberg, editors, {\em Guide to
   Advanced Empirical Software Engineering\/}, pages 63--92. Springer London.
-
-\bibitem[Kääriäinen and Välimäki(2009)Kääriäinen and
-  Välimäki]{Jukka:2009}
-Kääriäinen, J. and Välimäki, A. (2009).
-\newblock Applying application lifecycle management for the development of
-  complex systems: Experiences from the automation industry.
-\newblock In R.~O’Connor, N.~Baddoo, J.~Cuadrago~Gallego, R.~Rejas~Muslera,
-  K.~Smolander, and R.~Messnarz, editors, {\em Software Process Improvement\/},
-  volume~42 of {\em Communications in Computer and Information Science\/},
-  pages 149--160. Springer Berlin Heidelberg.
 
 \bibitem[Lacheiner and Ramler(2011)Lacheiner and Ramler]{lacheiner2011}
 Lacheiner, H. and Ramler, R. (2011).
@@ -332,6 +328,11 @@ Shaye, S. (2008).
 \newblock Transitioning a team to agile test methods.
 \newblock In {\em Agile, 2008. AGILE '08. Conference\/}, pages 470--477.
 
+\bibitem[Sommerville(2005)Sommerville]{sommerville2005integrated}
+Sommerville, I. (2005).
+\newblock Integrated requirements engineering: A tutorial.
+\newblock {\em Software, IEEE\/}, {\bf 22}(1), 16--23.
+
 \bibitem[Sommerville(2007)Sommerville]{Sommerville2007}
 Sommerville, I. (2007).
 \newblock {\em Software Engineering\/}.
@@ -342,9 +343,11 @@ Sommerville, I. (2011).
 \newblock {\em Software Engineering\/}.
 \newblock Addison Wesley, 9 edition.
 
-\bibitem[Times(2012)Times]{GmTop2012}
-Times, N.~Y. (2012).
-\newblock G.m. regains the top spot in global automaking.
+\bibitem[Sommerville and Kotonya(1998)Sommerville and
+  Kotonya]{sommerville1998requirements}
+Sommerville, I. and Kotonya, G. (1998).
+\newblock {\em Requirements engineering: processes and techniques\/}.
+\newblock John Wiley \& Sons, Inc.
 
 \bibitem[Uikey and Suman(2012)Uikey and Suman]{Uikey2012}
 Uikey, N. and Suman, U. (2012).
