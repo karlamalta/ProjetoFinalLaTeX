@@ -258,62 +258,76 @@ solving conflicts that are identified.
 \section{SPL Requirements Engineering}
 \label{sc:splrequirementsengineering}
 
-Requirements are typical assets in SPL. They are specified in reusable models,
-in which commonalities and variabilities are documented explicitly. Thus, these requirements 
+Requirements are typical assets in \ac{SPL}. They are specified in reusable
+models, in which commonalities and variabilities are documented explicitly. Thus, these requirements 
 can be instantiated and adapted to derive the requirements for an individual
 product \citep{cheng2007research}.
 During product derivation, for each variant asset, it is decided whether the asset is (or is not) supported by 
 the product to be built. When a domain requirement is instantiated, it can be become a concrete product requirement. 
-Thus, new products in the SPL will be much simpler to specify, because the requirements are reused and tailored 
-\citep{clements2002software}. 
+Thus, new products in the \ac{SPL} will be much simpler to specify, because the
+requirements are reused and tailored \citep{clements2002software}. 
 
 Deciding which products to build depends on business goals, market trends,
 technological feasibility, and so on. On the other hand, there are many sources of information 
-to be considered and many trade-offs to be made. The SPL requirements must be general enough to support 
-reasoning about the scope of the SPL, predicting future changes in requirements and anticipated SPL growth. 
+to be considered and many trade-offs to be made. The \ac{SPL} requirements must be general enough to support 
+reasoning about the scope of the \ac{SPL}, predicting future changes in
+requirements and anticipated \ac{SPL} growth.
 
-In practice, establishing the requirements for an SPL is an iterative and
+In practice, establishing the requirements for an \ac{SPL} is an iterative and
 incremental effort, covering multiple requirements sources with many feedback loops and validation activities 
-(Chastek et al. , 2001). Thus, Requirement Engineering (RE) in SPL has an additional cost. Many SPL requirements 
-are complex, interlinked, and divided into common, variable and product-specific requirements (Birk et al. , 2003; 
-Oliveira et al. , 2014). Regarding to single systems, RE for SPL has some differences, such as 
-(Clements and Northrop, 2002; Pohl et al. , 2005; Thurimella and Bruegge, 2007):
+\citep{chastek2001product}. Thus, \acf{RE} in \ac{SPL} has an
+additional cost. Many \ac{SPL} requirements are complex, interlinked, and divided
+into common, variable and product-specific requirements \citep{birk2003report, 
+de2014defining}. Regarding to single systems, \ac{RE} for \ac{SPL} has
+some differences, such as \citep{clements2002software,
+Pohl2005, thurimella2007evolution}:
 
 \begin{itemize}
-\item \textbf{Elicitation} identifies sources of requirements information and discovers the 
-users’ needs and constraints for the system.
-\item \textbf{Analysis} understands the requirements, their overlaps, and their conflicts.
-\item \textbf{Negotiation} reaches agreement to satisfy all stakeholders,
-solving conflicts that are identified.
-\item \textbf{Specification} documents the user’s needs and constraints clearly and precisely.
-\item \textbf{Verification} checks if the requirements are complete, correct, consistent, and clear.
-\item \textbf{Management} controls the requirements changes that will inevitably arise.
+\item \textbf{Elicitation} captures anticipated variations over the foreseeable life-cycle of the 
+\ac{SPL}. \ac{RE} must anticipates prospective changes in requirements, such as
+laws, standards, technology changes, and market needs for future products. Thus, its sources of information are probably larger 
+than for single-system requirements elicitation.
+\item \textbf{Analysis} identifies variations and commonalities, and discovers opportunity for reuse.
+\item \textbf{Negotiation} solves conflicts not only from a logical viewpoint, but also taking into 
+consideration economical and market issues. The \ac{SPL} requirements may
+require sophisticated analysis and intense negotiation to agree on both common requirements and variation 
+points that are acceptable for all the systems.
+\item \textbf{Specification} documents a \ac{SPL} set of requirements. Notations are used to represent the 
+product line variabilities and enable the product instantiation.
+\item \textbf{Verification} checks if the \ac{SPL} requirements can be instantiated for the products, 
+ensuring the reusability of the requirements.
+\item \textbf{Management} must provide a systematic mechanism for proposing changes, evaluating how the 
+proposed changes will impact the \ac{SPL}, specifically its core asset base. Evolution can affect the reuse and 
+customization, therefore, appropriate mechanisms must be used o manage the variabilities.
 \end{itemize}
 
-In SPL, RE also has influence of several stakeholders that participate of the
-SPL. Identifying stakeholders that directly influence the RE is essential to define the 
-requirements negotiation participants. They are responsible for resolving conflicts and providing information. 
+In \ac{SPL}, \ac{RE} also has influence of several stakeholders that participate
+of the \ac{SPL}. Identifying stakeholders that directly influence the \ac{RE} is
+essential to define the requirements negotiation participants. They are responsible for 
+resolving conflicts and providing information. 
 
-Each stakeholder plays a role with respect to the SPL. Many of the stakeholders
+Each stakeholder plays a role with respect to the \ac{SPL}. Many of the stakeholders
 that help to define the requirements also use them. These users have different expectations of 
-the outputs of SPL analysis. Some may simply want to confirm that their interests have been represented 
+the outputs of \ac{SPL} analysis. Some may simply want to confirm that their interests have been represented 
 (e.g., marketers, domain expert and analyst domain). Others ( e.g., architects and developers) may want to 
 describe proposed functional and non-functional capabilities, and their commonality and variability across 
-the SPL, thus, those decisions about architectural solutions and asset construction should be taken into account 
-(Chastek et al., 2001).
+the \ac{SPL}, thus, those decisions about architectural solutions and asset construction should be taken into account 
+\citep{chastek2001product}.
 
 Several approaches to deal with the definition and specification of functional
-requirements in SPL development have been proposed over the last few years. Some approaches specify 
-the SPL requirements through features and use cases (Griss et al., 1998; Bayer et al., 1999a; Moon et al., 2005; 
-Eriksson et al., 2005; Bonifácio and Borba, 2009; Alférez et al., 2011; Mussbacher et al.,2012; Shaker et al., 2012). 
-An SPL functional requirement represented as an use case has at least the following fields: identifier, name, 
-description, associated feature(s), pre and post-Conditions, and the Main Success Scenario , as shown in 
-Table 2.1. It may also have alternative scenarios, includes/extends relationships, and so on. The feature 
-associated to the use case handles the variability within the SPL.
+requirements in \ac{SPL} development have been proposed over the last few years. Some approaches specify 
+the \ac{SPL} requirements through features and use cases
+\citep{griss1998integrating, bayer2000customizable, moon2005approach,
+eriksson2005pluss, bonifacio2009modeling, alferez2011supporting,
+mussbacher2012aourn, shaker2012feature}.
+A \ac{SPL} functional requirement represented as an use case has at least the following fields: identifier, name, 
+description, associated feature(s), pre and post-conditions, and the main
+success scenario , as shown in Table 2.1. It may also have alternative
+scenarios, includes/extends relationships, and so on. The feature associated to the use case handles the variability within the \ac{SPL}.
 
 Table 2.1: SPL Use Case Example.
 
-However, the approaches for specifying SPL functional requirements do not propose guide- lines, 
+However, the approaches for specifying \ac{SPL} functional requirements do not propose guide- lines, 
 showing step by step how the specification should be done. This lack of guidelines may led to some 
 challenges and risks.
 

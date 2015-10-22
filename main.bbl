@@ -1,5 +1,14 @@
 \begin{thebibliography}{}
 
+\bibitem[Alf{\'e}rez {\em et~al.}(2011)Alf{\'e}rez, Lopez-Herrejon, Moreira,
+  Amaral, and Egyed]{alferez2011supporting}
+Alf{\'e}rez, M., Lopez-Herrejon, R.~E., Moreira, A., Amaral, V., and Egyed, A.
+  (2011).
+\newblock Supporting consistency checking between features and software product
+  line use scenarios.
+\newblock In {\em Top Productivity through Software Reuse\/}, pages 20--35.
+  Springer.
+
 \bibitem[Almeida {\em et~al.}(2004)Almeida, Alvaro, Lucr\'{e}dio, Garcia, and
   Meira]{Almeida2004}
 Almeida, E.~S., Alvaro, A., Lucr\'{e}dio, D., Garcia, V.~C., and Meira, S.
@@ -38,6 +47,13 @@ Bayer, J. and Widen, T. (2002).
   Software Product-Family Engineering\/}, PFE '01, pages 409--416, London, UK,
   UK. Springer-Verlag.
 
+\bibitem[Bayer {\em et~al.}(2000)Bayer, Muthig, and
+  Widen]{bayer2000customizable}
+Bayer, J., Muthig, D., and Widen, T. (2000).
+\newblock Customizable domain analysis.
+\newblock In {\em Generative and Component-Based Software Engineering\/}, pages
+  178--194. Springer.
+
 \bibitem[Baysal {\em et~al.}(2013)Baysal, Holmes, and Godfrey]{Baysal2013}
 Baysal, O., Holmes, R., and Godfrey, M.~W. (2013).
 \newblock Situational awareness: Personalizing issue tracking systems.
@@ -51,6 +67,20 @@ Birk, A. and Heller, G. (2007).
 \newblock In {\em Proceedings of the 13th International Working Conference on
   Requirements Engineering: Foundation for Software Quality\/}, REFSQ'07, pages
   300--305, Berlin, Heidelberg. Springer-Verlag.
+
+\bibitem[Birk {\em et~al.}(2003)Birk, Heller, John, Joos, Muller, Schmid, and
+  von~der Massen]{birk2003report}
+Birk, A., Heller, G., John, I., Joos, S., Muller, K., Schmid, K., and von~der
+  Massen, T. (2003).
+\newblock Report of the gi work group" requirements engineering for product
+  lines.
+
+\bibitem[Bonif{\'a}cio and Borba(2009)Bonif{\'a}cio and
+  Borba]{bonifacio2009modeling}
+Bonif{\'a}cio, R. and Borba, P. (2009).
+\newblock Modeling scenario variability as crosscutting mechanisms.
+\newblock In {\em Proceedings of the 8th ACM international conference on
+  Aspect-oriented software development\/}, pages 125--136. ACM.
 
 \bibitem[Brito(2007)Brito]{Brito2007}
 Brito, K.~S. (2007).
@@ -114,6 +144,12 @@ Cavalcanti, Y.~C., do~Carmo~Machado, I., da~Mota Silveira~Neto, P.~A., and
   Variability and Traceability over SPL Disciplines, pages 3--22.
 \newblock InTech.
 
+\bibitem[Chastek {\em et~al.}(2001)Chastek, Donohoe, Kang, and
+  Thiel]{chastek2001product}
+Chastek, G., Donohoe, P., Kang, K.~C., and Thiel, S. (2001).
+\newblock Product line analysis: a practical introduction.
+\newblock Technical report, DTIC Document.
+
 \bibitem[Cheng and Atlee(2007)Cheng and Atlee]{cheng2007research}
 Cheng, B.~H. and Atlee, J.~M. (2007).
 \newblock Research directions in requirements engineering.
@@ -138,6 +174,14 @@ Clements, P. and Northrop, L. (2002).
 da~Mota Silveira~Neto, P.~A. (2010).
 \newblock A regression testing approach for software product lines
   architectures.
+
+\bibitem[de~Oliveira {\em et~al.}(2014)de~Oliveira, Blanes, Gonzalez-Huerta,
+  Insfran, Abrah{\~a}o, Cohen, and de~Almeida]{de2014defining}
+de~Oliveira, R.~P., Blanes, D., Gonzalez-Huerta, J., Insfran, E., Abrah{\~a}o,
+  S., Cohen, S., and de~Almeida, E.~S. (2014).
+\newblock Defining and validating a feature-driven requirements engineering
+  approach.
+\newblock {\em Journal of Universal Computer Science\/}, {\bf 20}(5), 666--691.
 
 \bibitem[de~Oliveira(2009)de~Oliveira]{oliveira2009}
 de~Oliveira, T. H.~B. (2009).
@@ -172,6 +216,13 @@ Durao, F.~A. (2008).
 \newblock Master's thesis, Federal University of Pernambuco, Recife,
   Pernambuco, Brazil.
 
+\bibitem[Eriksson {\em et~al.}(2005)Eriksson, B{\"o}rstler, and
+  Borg]{eriksson2005pluss}
+Eriksson, M., B{\"o}rstler, J., and Borg, K. (2005).
+\newblock The pluss approach--domain modeling with features, use cases and use
+  case realizations.
+\newblock In {\em Software Product Lines\/}, pages 33--44. Springer.
+
 \bibitem[Garcia {\em et~al.}(2008)Garcia, Lisboa, {a}o, Almeida, and
   Meira]{Garcia2008a}
 Garcia, V.~C., Lisboa, L.~B., {a}o, F. A.~D., Almeida, E.~S., and Meira, S.
@@ -186,6 +237,13 @@ Goeschl, S., Herp, M., and Wais, C. (2010).
 \newblock When agile meets oo testing: A case study.
 \newblock In {\em Proceedings of the 1st Workshop on Testing Object-Oriented
   Systems\/}, ETOOS '10, pages 10:1--10:5, New York, NY, USA. ACM.
+
+\bibitem[Griss {\em et~al.}(1998)Griss, Favaro, and
+  Alessandro]{griss1998integrating}
+Griss, M.~L., Favaro, J., and Alessandro, M.~D. (1998).
+\newblock Integrating feature modeling with the rseb.
+\newblock In {\em Software Reuse, 1998. Proceedings. Fifth International
+  Conference on\/}, pages 76--85. IEEE.
 
 \bibitem[Hochm\"{u}ller(2011)Hochm\"{u}ller]{Hochmuller2011}
 Hochm\"{u}ller, E. (2011).
@@ -253,11 +311,24 @@ Mendes, R.~C. (2008).
 \newblock Master's thesis, Federal University of Pernambuco, Recife,
   Pernambuco, Brazil.
 
+\bibitem[Moon {\em et~al.}(2005)Moon, Yeom, and Chae]{moon2005approach}
+Moon, M., Yeom, K., and Chae, H.~S. (2005).
+\newblock An approach to developing domain requirements as a core asset based
+  on commonality and variability analysis in a product line.
+\newblock {\em Software Engineering, IEEE Transactions on\/}, {\bf 31}(7),
+  551--569.
+
 \bibitem[Moraes(2010)Moraes]{Moraes2010}
 Moraes, M. B.~S. (2010).
 \newblock {\em A scoping approach for software product lines\/}.
 \newblock Master's thesis, Federal University of Pernambuco, Recife,
   Pernambuco, Brazil.
+
+\bibitem[Mussbacher {\em et~al.}(2012)Mussbacher, Ara{\'u}jo, Moreira, and
+  Amyot]{mussbacher2012aourn}
+Mussbacher, G., Ara{\'u}jo, J., Moreira, A., and Amyot, D. (2012).
+\newblock Aourn-based modeling and analysis of software product lines.
+\newblock {\em Software Quality Journal\/}, {\bf 20}(3-4), 645--687.
 
 \bibitem[Nascimento(2008)Nascimento]{Nascimento2008}
 Nascimento, L.~M. (2008).
@@ -323,6 +394,12 @@ Seidl, C., Heidenreich, F., and Assmann, U. (2012).
 \newblock In {\em Proceedings of the 16th International Software Product Line
   Conference - Volume 1\/}, SPLC '12, pages 76--85, New York, NY, USA. ACM.
 
+\bibitem[Shaker {\em et~al.}(2012)Shaker, Atlee, and Wang]{shaker2012feature}
+Shaker, P., Atlee, J.~M., and Wang, S. (2012).
+\newblock A feature-oriented requirements modelling language.
+\newblock In {\em Requirements Engineering Conference (RE), 2012 20th IEEE
+  International\/}, pages 151--160. IEEE.
+
 \bibitem[Shaye(2008)Shaye]{Shaye2008}
 Shaye, S. (2008).
 \newblock Transitioning a team to agile test methods.
@@ -348,6 +425,14 @@ Sommerville, I. (2011).
 Sommerville, I. and Kotonya, G. (1998).
 \newblock {\em Requirements engineering: processes and techniques\/}.
 \newblock John Wiley \& Sons, Inc.
+
+\bibitem[Thurimella and Bruegge(2007)Thurimella and
+  Bruegge]{thurimella2007evolution}
+Thurimella, A.~K. and Bruegge, B. (2007).
+\newblock Evolution in product line requirements engineering: A rationale
+  management approach.
+\newblock In {\em Requirements Engineering Conference, 2007. RE'07. 15th IEEE
+  International\/}, pages 254--257. IEEE.
 
 \bibitem[Uikey and Suman(2012)Uikey and Suman]{Uikey2012}
 Uikey, N. and Suman, U. (2012).
