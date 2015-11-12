@@ -1,5 +1,5 @@
 \chapter{An Overview on Software Product Lines, Requirements Engineering, SPL
-Requirements Engineering and SPL Tools}
+Requirements Engineering and SPLE Tool Support}
 \label{ch:background}
 
 
@@ -9,8 +9,8 @@ engineering, and \ac{SPL} requirements engineering. \secref{sc:productlines} dis
 motivation, benefits, and the SPL development process.
 \secref{sc:requirementsengineering} presents requirements engineering.
 \secref{sc:splrequirementsengineering} presents \ac{SPL} requirements engineering.
-\secref{sc:spltools} presents \ac{SPL} Tools. Finally, \secref{sc:summary} presents a
-summary of this chapter.
+\secref{sc:spltools} presents \ac{SPLE} Tool Support. Finally,
+\secref{sc:summary} presents a summary of this chapter.
 
 
 \section{Software Product Lines}
@@ -195,7 +195,7 @@ assets. It details the overall scheme of how the individual attached processes c
 fitted together to build a product \citep{clements2002software}. It is what links all the 
 core assets together, guiding the product development within the constraints of the product line.
 
-\subsubsection{Product Development}
+\subsubsection{Product Development (Application Engineering)}
 
 \begin{figure}[htp]
 \begin{center}
@@ -263,7 +263,7 @@ models, in which commonalities and variabilities are documented explicitly. Thus
 can be instantiated and adapted to derive the requirements for an individual
 product \citep{cheng2007research}.
 During product derivation, for each variant asset, it is decided whether the asset is (or is not) supported by 
-the product to be built. When a domain requirement is instantiated, it can be become a concrete product requirement. 
+the product to be built. When a domain requirement is instantiated, it can become a concrete product requirement. 
 Thus, new products in the \ac{SPL} will be much simpler to specify, because the
 requirements are reused and tailored \citep{clements2002software}. 
 
@@ -319,24 +319,129 @@ requirements in \ac{SPL} development have been proposed over the last few years.
 the \ac{SPL} requirements through features and use cases
 \citep{griss1998integrating, bayer2000customizable, moon2005approach,
 eriksson2005pluss, bonifacio2009modeling, alferez2011supporting,
-mussbacher2012aourn, shaker2012feature}.
+mussbacher2012aourn, shaker2012feature, de2014defining}.
 A \ac{SPL} functional requirement represented as an use case has at least the following fields: identifier, name, 
 description, associated feature(s), pre and post-conditions, and the main
-success scenario , as shown in Table 2.1. It may also have alternative
-scenarios, includes/extends relationships, and so on. The feature associated to the use case handles the variability within the \ac{SPL}.
+success scenario , as shown in Table \ref{table:use-case}. It may also have
+alternative scenarios, includes/extends relationships, and so on. The feature associated to the use case handles the 
+variability within the \ac{SPL}.
 
-Table 2.1: SPL Use Case Example.
+\begin{table}[]
+\centering
+\scriptsize
+\caption{SPL Use Case Example (Addapted from \citep{de2014defining})}
+\label{table:use-case}
+\begin{tabular}{|l|l|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{*ID:}} & \multicolumn{3}{l|}{Use case identifier} \\ \hline 
 
-However, the approaches for specifying \ac{SPL} functional requirements do not propose guide- lines, 
-showing step by step how the specification should be done. This lack of guidelines may led to some 
-challenges and risks.
+\multicolumn{1}{|c|}{\textbf{*Name:}} & \multicolumn{3}{l|}{Use case name} \\ \hline 
 
-\section{SPL Tools}
+\multicolumn{1}{|c|}{\textbf{*Description:}} & \multicolumn{3}{l|}{Use case description} \\ \hline 
+
+\multicolumn{1}{|c|}{\textbf{*Associated feature:}} & Feature associated to the
+use case & \textbf{Actor(s) [0..*]:} & Actor associated to the use case \\ \hline
+
+\multicolumn{1}{|c|}{\textbf{*Pre-condition:}} & Use case pre-condition &
+\textbf{*Post-condition:} & Use case post-condition \\ \hline
+
+\multicolumn{4}{|c|}{\textbf{*Main Success Scenario}} 
+\\ \hline
+
+\multicolumn{1}{|l|}{\textbf{Step}} & \multicolumn{1}{|l|}{\textbf{Actor
+Action}} & \multicolumn{2}{|l|}{\textbf{Blackbox System Response}} \\ \hline 
+
+\multicolumn{1}{|l|}{Step represented by a number} & \multicolumn{1}{|l|}{Actor
+action} & \multicolumn{2}{|l|}{System response} \\ \hline
+\end{tabular}
+*Mandatory Fields
+\end{table}
+
+However, most of the approaches for specifying \ac{SPL} functional requirements
+do not propose guidelines, showing step by step how the specification should be
+done. This lack of guidelines may lead to some challenges and risks \citep{de2014defining}.
+
+\subsubsection{Risks and Challenges}
+
+A key \ac{RE} challenge for \ac{SPL} development includes strategic and
+effective techniques for analyzing domains, identifying opportunities for \ac{SPL}, and identifying 
+the commonalities and variabilities of an \ac{SPL} \citep{cheng2007research}. Another challenge 
+related to \ac{RE} is that the applicability of more systematic techniques and tools is limited, 
+partly because such techniques are not yet designed to cope with \ac{SPL} development’s inherent 
+complexities \citep{birk2003report}.
+
+Regarding to the risks associated with \ac{RE} for \ac{SPL}, the major risk is failure to
+capture the right requirements, and their variabilities, over the life of the \ac{SPL} 
+\citep{clements2002software}. Documenting the wrong or inappropriate
+requirements, failing to keep the requirements up-to-date, or failing to document the requirements at all, 
+may affects the subsequent activities (architecture, implementation, tests, and so  on). They will 
+be unable to produce systems that satisfy the customers and fulfill the market expectations. 
+Moreover, inappropriate requirements can result from the  following
+\citep{clements2002software}:
+
+\begin{itemize}
+\item \textbf{Failure in the communication between core assets requirements
+development and product requirements development.} The core asset builders need to 
+know the requirements they must build, while the product-specific software builders 
+must know what is expected of them. The lack of communication between these two development 
+stages may lead to inconsistent requirements or even unnecessary variabilities
+in the requirements.
+\item \textbf{Insufficient generality.} Insufficient generality in the
+requirements leads to a design that is too fragile to deal with the change actually experienced 
+over the life-cycle of  the \ac{SPL}.
+\item \textbf{Excessive generality.} Excessive generality on requirements leads
+to excessive effort in producing both core assets (to provide that generality) and specific 
+products (which must turn that generality into a specific instantiation).
+\item \textbf{Wrong variation points.} Incorrect determination of the variation
+points results in inflexible products and the inability to respond rapidly to customer needs and market shifts.
+\item \textbf{Failure to account for qualities other than behavior.} \ac{SPL}
+requirements (and software requirements in general) should capture requirements for quality 
+attributes such as performance, reliability, and security.
+\end{itemize}
+
+\section{SPLE Tool Support}
 \label{sc:spltools}
+
+Since the early days of computer programming, software engineers use a variety of tools to support 
+software development. Software engineering tools and environments are becoming progressively important 
+as the demand for software, its diversity and complexity increases. The computer industry is a competitive 
+industry and there is a pressure to produce software at lower costs and faster because time-to-market is a 
+decisive factor for success. Thus, modern software engineering cannot be accomplished without reasonable 
+tool support \citep{ossher2000software}.
+
+The commercial potential of the \ac{SPL} approach has already been demonstrated in
+numerous case studies. While product line development is increasingly accepted, professional 
+tool support is still insufficient and represents a key challenge for future research 
+\citep{Pohl2005,schmid2006requirements}.
+
+\ac{SPLE} tool support focuses almost exclusively on a single, cross-cutting
+aspect of \ac{SPLE}: variability management \ac{VM}, or making software and
+artifacts (such as requirements, tests, and documentation) configurable in a way that they can be  developed together, while each 
+product still receives its specifically adapted version \citep{schmid2013product}.  Thus, an effective 
+and efficient variability management \ac{VM} is the base of the successful reuse of development 
+artifacts \citep{boutkova2011experience}.
+
+\acf{VM} tools support four main activities: modeling variability, modeling the
+relationship between variability and a generic artifact, supporting configuration of generic artifacts, 
+and deriving customized products \citep{schmid2013product}.
+
+The requirements engineering process must be tool-supported to handle the huge
+volume of elicited requirements. There are several differences between a single 
+product development and a product line development and therefore a tool must be 
+capable to support that development, including the additional activities that must be 
+performed in the requirements engineering phase. However, existing tools are not designed 
+to support the requirements engineering process for software product lines. Existing 
+tools support only single product development and therefore lack support for modeling 
+commonalities and variabilities as well as variation points in requirements
+\citep{birk2003report}.
 
 \section{Summary}
 \label{sc:summary}
-In this chapter, we discussed about important concepts to this work: the area of \acf{SPL}, \acf{CASE} tools and \acf{ALM} tools, including motivations, benefits and definitions. We also made a analysis of features and comparison of tools available in market.
 
-Next chapter presents the \acf{SPLICE}, a web-based, collaborative support for the \ac{SPL} lifecycle steps. It will be discussed the requirements, architecture, implementation and other aspects.
+In this chapter, we discussed about important concepts to this work: the area of
+\acf{SPL}, \acf{RE} , \ac{SPL} Requirements Engineering and \ac{SPLE} tool
+support.
+
+Next chapter presents an extension of \acf{SPLICE}, a web-based, collaborative
+support for the \ac{SPL} lifecycle steps.
 

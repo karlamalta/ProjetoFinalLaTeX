@@ -1,62 +1,51 @@
 \chapter{Introduction}
-\label{ch:introduction}
+\label{ch:introduction} 
+A \acf{SPL} is outlined as a collection of similar software intensive systems
+that share a set of common features satisfying the wants of specific customers, market segments 
+or mission. Those similar software systems are developed from a set of core assets, comprised of 
+documents, specifications, components, and other software artifacts that may be reusable throughout 
+the development of each system within the product line
+\citep{rafael2013systems}.
 
-\begin{quotation}[Dhammapada]{Buddha}
-Drop by drop is the water pot filled. Likewise, the wise man, gathering it little by little, fills himself with good.
-\end{quotation}
+Requirements are typical assets in \ac{SPL}. They are specified in reusable models,
+in which commonalities and variabilities are documented explicitly. Thus, these 
+requirements can be instantiated and adapted to derive the requirements for an 
+individual product \citep{cheng2007research}. New products in the SPL will be
+much simpler to specify, because the requirements are reused and tailored
+\citep{clements2002software}.
 
-Nowadays, there are a rising demand for individualized products. Those changes affects directly software-intensive companies that are faced with pressure to innovate and develop adaptations to their products, often big and complex. This has lead to a situation where many companies are constantly struggling with an increasing cost of developing new products due to increased size and complexity. On the other hand, the number of products and customer-specific adaptations required increases constantly \citep{rafael2013systems}.
+\acf{RE} in \ac{SPL} has an additional cost. Many \ac{SPL} requirements are
+complex, interlinked, and divided into common, variable and product-specific requirements 
+\citep{birk2003report,de2014defining}.  The requirements engineering process
+must be tool-supported to handle complexity and the huge volume of elicited requirements
+\citep{birk2003report}.
 
-Successful introduction of a software product line provides a significant opportunity for a company to improve its competitive position, and there are many reports documenting the significant achievements and experience gained by introducing Software Product Lines in the software industry \citep{Pohl2005}. However, managing a \acf{SPL} is not so simple, since it demands planning and reuse, adequate management and development techniques, and also the ability to deal with organizational issues and architectural complexity \citep{CavalcantiInTech2012}. 
+The focus of this dissertation is to provide a support tool for performing the specification of the 
+\ac{SPL} requirements in a systematic way through the use of guidelines,  showing step by step how the 
+specification should be done.
 
-According to \citet{rafael2013systems} , the lack of systematic software variability management was the root cause or most of failures in \acf{SPL} adoption. Recently, the concept of \acf{ALM} has emerged to indicate the coordination of activities and the management of artifacts (e.g., requirements, source code, test cases) during the software product's lifecycle \citep{Schwaber2006}. 
-
-The focus of this dissertation is to provide a support tool for managing the \acf{SPL} life-cycle by maintaining the variability and traceability among artifacts, being extensible and easily modifiable for changes in the used metamodel. We also developed and implemented a metamodel using the tool.
-
-
-This chapter contextualizes the focus of this dissertation and starts by presenting its
-motivation in  \secref{sc:motivation} and a clear definition of the problem in \secref{sc:problem}. A brief overview of the proposed solution is presented in \secref{sc:solution}, while \secref{sc:outofscope} describes some aspects that are not directly addressed by this work.
-\secref{sc:contributions} presents the main contributions and, finally,
+This chapter contextualizes the focus of this dissertation and starts by
+presenting its motivation in \secref{sc:motivation} and a clear definition of the problem in 
+\secref{sc:problem}. A brief overview of the proposed solution is presented in
+\secref{sc:related}, while \secref{sc:outofscope} describes some aspects that
+are not directly addressed by this work.
+\secref{sc:contributions} presents the main contributions,  
+\secref{sc:design} presents the research design  and, finally,
 \secref{sc:structure} outlines the structure of this dissertation.
-
-
-
-
-
 
 \section{Motivation}
 \label{sc:motivation}
-Software Product Line (SPL) is considered one of the most popular technical paradigm and emerging methodology in developing software products and is proven to be a successful approach in many business environments \citep{Pohl2005}.
-
-Software product lines are often developed and maintained using model-based approaches \citep{Dhungana}. Modeling is used as a support mechanism to define and represent the variability involved in a SPL in a controlled and traceable way, as well as the mappings among the artifacts and elements that compose a SPL. \citep{CavalcantiInTech2012}.
-
-During the development of a \ac{SPL}, a wide range of artifacts needs to be created and maintained to preserve the consistency of the family model during development, and it is important to manage the \ac{SPL} variability and the traceability among those artifacts. However, this is a hard task, due to the heterogeneity of assets developed during product line engineering. To maintain the traceability and artifacts updated manually is error-prone, time consuming and complex. Therefore, using a Project management system for supporting those activities is essential.
-
-A huge number of \ac{CASE} tools exists in the market for assisting  Software Engineering activities and there are also specific tools for Software Product Lines engineering. However, during the development of a customer-oriented mobile application, the actual SPL development process and support tools where complex and too formal, imposing a strict and heavy process. 
-
-\acf{ALM} aims to provide integrated tools and practices that support project cooperation and communication through a project's lifecycle. \ac{ALM} are mainly provided by commercial vendors \citep{Schwaber2006} and have a gap with the \ac{SPL} practices regarding the lack of evidence in the literature. 
-
-During a development lifecycle, was  identified that for mostly all projects, a set of CASE tools were frequently used such as:
-\begin{itemize}
-\item Project management( Trac, DotProject, Redmine)
-\item Versioning control (Git, SVN, CVS)
-\item Issue Tracking ( Bugzilla, Mantis)
-
-\end{itemize}
-By using separated tools, we lost an opportunity to automatize trace links, providing traceability among the artifacts. Software engineers also frequently have to provide the installation, maintainability and user management for a number of tools themselves, or rely on a external person for those tasks not directly related to the product development.
 
 
 \section{Problem Statement}
 \label{sc:problem}
-This work investigates the problem of traceability and variability management during the \acf{SPL} lifecycle characterizing it empirically to understand its causes and consequences, and provides a tool for \ac{SPL} lifecycle management tool to support and reduce the effort spent in the traceability maintenance and assets management
 
 
-\section{Overview of the Proposed Solution}
-\label{sc:solution}
+\section{Related Work}
+\label{sc:related}
 In order to accomplish the goal of this dissertation, we propose the \acf{SPLICE}.
 This tool supports the \acf{SPL} process activities in order to assist engineers in the traceability, variability management and maintenance activity.
- The remainder of this section presents the context where it was developed and the outline of the proposed solution.
-
+The remainder of this section presents the context where it was developed and the outline of the proposed solution.
 
 \subsection{Context}
 This dissertation describes a tool that is part of the \ac{RiSE} \citep{Almeida2004}, formerly
@@ -133,46 +122,67 @@ The tool must enable the engineers involved in the process, to automatize the as
 
 \section{Out of Scope}
 \label{sc:outofscope}
-
+The following topics are not considered in the scope of this dissertation: 
 \begin{itemize}
-  \item \textbf{ Full Application Engineering Support } Application engineering is the process of software product line engineering in which the applications of the product line are built by reusing domain artifacts and exploiting the product line variability \citep{Pohl2005}. Although the SPLICE architecture is flexible enough for it, we still do not support code binding, and cannot perform automatic product derivation.  
-  
-    \item \textbf{Risk Management.} Our metamodel do not support risk management assets yet.
-    
-    
-  \item \textbf{Type of users.} The subjects of this work are
-  developers and testers who will develop the system or test it. It also applies for stakeholders with some software engineering background, who understand the impact of their changes. Thus, it is out of scope  to provide a tool that supports the following types of users: business experts and end-users.
+\item \textbf{SPL Domain Requirements Evolution}
+
+Although an approach has already been proposed for the SPL domain requirements
+evolution phase (FeDRE2), we still do not support this approach, but it is certainly a 
+direction we intend to follow in the future.
+\item \textbf{SPL Application Requirements Engineering}
+
+In this work we do not consider the SPL Application Engineering process, then our contributions do 
+not cover  the \ac{SPL} Application Requirements Engineering.
+\item \textbf{Non-SPL Tools}
+
+This work is concerned with Software Product Lines development and tools and
+environments that support the \ac{SPL} approach. Non-SPL tools are out of scope.
 \end{itemize}
 
 \section{Statement of the Contributions}
 \label{sc:contributions}
-As a result of the work presented in this dissertation, the following
-contributions can be highlighted:
+As a result of the work presented in this dissertation, the following contribution can be highlighted:
 \begin{itemize}
-\item \textbf{A study on SPL lifecycle management tools}, which can provide the research and professional community an overview of the state-of-the-art tools in the field considering the literature and tools on the market.
-
-
-\item \textbf{A metamodel for Software Product Lines tools} that cover the activities of a \ac{SPL} development with agile practices and represent the interactions among the assets of a \ac{SPL}, as a way to provide traceability and variability, based on the metamodel developed in the \ac{RiSE} Labs \citep{Cavalcanti:2011}
-
-
-\item \textbf{An application lifecycle management system} to support the suggested \ac{SPL} metamodel. A web-based, collaborative tool which acts as a centralized location to user-management, provide an infrastructure and support for the \ac{SPL} lifecycle steps.
-
+\item \textbf{Tool support for a SPL domain requirements specification approach
+(FeDRE)} 
+We extended the \ac{SPLICE} tool, a \ac{SPL} lifecycle management tool
+and automated \acf{FeDRE}, thus improving the automation of Software Product Lines (\ac{SPL}) requirements engineering phase.
 \end{itemize}
 
+\section{Research Design}
+\label{sc:design}
 
+The first step of our work was to investigate the software product line area. This informal 
+study also included to understand the requirements engineering phase for single systems and 
+software product lines. As a result, we could write out the second chapter with some foundations 
+on these subjects.
+ 
+During the informal study we identified the need for tools that appropriately support the domain 
+requirements engineering phase of software product lines. After choosing a requirements specification 
+approach (\ac{FeDRE}), we extended an existing SPL lifecycle management tool (\ac{SPLICE}) providing tool support 
+for this approach.
+
+In order to evaluate the proposed tool, we conducted a survey to identify limitations and needed 
+improvements for the tool.  
 
 \section{Dissertation Structure}
 \label{sc:structure}
 The remainder of this dissertation is organized as follows:
 
 \begin{itemize}
-\item \textbf{ Chapter \ref{ch:background} } reviews the essential topics used throughout this work: Software Product Lines and \ac{CASE} tools. It also contains a comprehensive revision similar tools.
+\item \textbf{ Chapter \ref{ch:background} } reviews the essential topics
+related to this work: Software Product Lines \ac{SPL}; requirements
+engineering; \ac{SPL} requirements engineering; and \ac{SPLE} tool support.
 
-\item \textbf{ Chapter \ref{ch:splice} } describes the functional and non-functional requirements proposed for the \ac{SPLICE} tool as well as architecture, the set of frameworks,the SPL metamodel and technologies used during the \ac{SPLICE} implementation.
+\item \textbf{ Chapter \ref{ch:tool} } describes the \ac{SPLICE} tool, its
+architeture and the set of frameworks and technologies used during its development. Also,  presents the new functional and non-functional 
+requirements proposed for \ac{FeDRE} implementation based upon \ac{SPLICE}.
 
-\item \textbf{ Chapter \ref{ch:caseStudy} } describes an academic case study conducted to evaluate the tool.
+\item \textbf{ Chapter \ref{ch:survey} } describes an evaluation of \ac{FeDRE}
+implementation.
 
-\item \textbf{ Chapter \ref{ch:conclusion} } provides the concluding remarks. It discusses our contributions, limitations, threats to validity,  and outline directions for future work.
+\item \textbf{ Chapter \ref{ch:conclusion} } provides the concluding remarks. It
+discusses our contributions, limitations, threats to validity, and outlines directions for future work.
 
 
 
