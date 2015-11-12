@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.2)  12 NOV 2015 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.2)  12 NOV 2015 16:43
 entering extended mode
 **main.tex
 (main.tex
@@ -1153,7 +1153,10 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 \tf@lot=\write8
  [17] [18
 
-] (acronyms.tex) [19]
+] (acronyms.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 19.
+ [19])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1166,29 +1169,42 @@ Package acronym Info: Label `acro:SPL' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
 Package acronym Info: Label `acro:RE' newly defined as it shall be overridden
 although it is yet undefined on input line 17.
-Package acronym Info: Label `acro:SPLICE' newly defined as it shall be overridd
-en
-although it is yet undefined on input line 46.
 [1
 
 
 
 ]
+Package acronym Info: Label `acro:FeDRE' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 47.
+Package acronym Info: Label `acro:FeDRE2' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 47.
+Package acronym Info: Label `acro:SPLICE' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 54.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 71.
 Package acronym Info: Label `acro:RiSE' newly defined as it shall be overridden
 
-although it is yet undefined on input line 51.
- <chapters/introduction/rise-spiral.png, id=324, 404.51125pt x 403.5075pt>
+although it is yet undefined on input line 72.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2] <chapters/introduction/rise-spiral.png, id=350, 404.51125pt x 403.5075pt>
 File: chapters/introduction/rise-spiral.png Graphic file (type png)
 
 <use chapters/introduction/rise-spiral.png>
 Package pdftex.def Info: chapters/introduction/rise-spiral.png used on input li
-ne 61.
+ne 82.
 (pdftex.def)             Requested size: 256.0748pt x 255.44247pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 73.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 83.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -1199,24 +1215,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]
+[3 <./chapters/introduction/rise-spiral.png>]
 Package acronym Info: Label `acro:C.E.S.A.R.' newly defined as it shall be over
 ridden
-although it is yet undefined on input line 102.
+although it is yet undefined on input line 123.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3 <./chapters/introduction/rise-spiral.png>]
-<chapters/introduction/rise-projects.png, id=410, 470.75874pt x 274.02374pt>
+<chapters/introduction/rise-projects.png, id=413, 470.75874pt x 274.02374pt>
 File: chapters/introduction/rise-projects.png Graphic file (type png)
 
 <use chapters/introduction/rise-projects.png>
 Package pdftex.def Info: chapters/introduction/rise-projects.png used on input 
-line 111.
+line 132.
 (pdftex.def)             Requested size: 284.52756pt x 165.6197pt.
 
 
@@ -1225,46 +1234,48 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <./chapters/introduction/rise-projects.png>]
-Package acronym Info: Label `acro:FeDRE' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 149.
-
+[4]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
+[5 <./chapters/introduction/rise-projects.png>]
 Package acronym Info: Label `acro:SPLE' newly defined as it shall be overridden
 
-although it is yet undefined on input line 175.
+although it is yet undefined on input line 196.
 
 
-LaTeX Warning: Reference `ch:tool' on page 6 undefined on input line 177.
+LaTeX Warning: Reference `ch:tool' on page 6 undefined on input line 198.
 
 
-LaTeX Warning: Reference `ch:survey' on page 6 undefined on input line 181.
+LaTeX Warning: Reference `ch:survey' on page 6 undefined on input line 202.
 
 
-LaTeX Warning: Reference `ch:conclusion' on page 6 undefined on input line 184.
+LaTeX Warning: Reference `ch:conclusion' on page 6 undefined on input line 205.
 
 
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6] (chapters/background/main.tex
-Chapter 2.
-[7
+[6])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7] (chapters/background/main.tex [8
 
 
 
 ]
+Chapter 2.
+[9]
 
 ! Package inputenc Error: Unicode char \u8:Ô¨Å not set up for use with LaTeX.
 
@@ -1279,7 +1290,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<chapters/background/img/splcosts.png, id=467, 283.81032pt x 178.41656pt>
+<chapters/background/img/splcosts.png, id=495, 283.81032pt x 178.41656pt>
 File: chapters/background/img/splcosts.png Graphic file (type png)
 
 <use chapters/background/img/splcosts.png>
@@ -1293,8 +1304,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
-<chapters/background/img/spl-timetomarket.png, id=481, 414.79968pt x 278.54062p
+[10]
+<chapters/background/img/spl-timetomarket.png, id=509, 414.79968pt x 278.54062p
 t>
 File: chapters/background/img/spl-timetomarket.png Graphic file (type png)
  <use chapters/background/img/spl-timetomarket.png>
@@ -1308,8 +1319,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./chapters/background/img/splcosts.png>]
-<chapters/background/img/pohl-framework.png, id=498, 491.58656pt x 374.90062pt>
+[11 <./chapters/background/img/splcosts.png>]
+<chapters/background/img/pohl-framework.png, id=527, 491.58656pt x 374.90062pt>
 File: chapters/background/img/pohl-framework.png Graphic file (type png)
 <use chapters/background/img/pohl-framework.png>
 Package pdftex.def Info: chapters/background/img/pohl-framework.png used on inp
@@ -1326,15 +1337,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <./chapters/background/img/spl-timetomarket.png>]
+[12 <./chapters/background/img/spl-timetomarket.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11 <./chapters/background/img/pohl-framework.png>]
-<chapters/background/img/SPLactivities.png, id=524, 525.46312pt x 469.755pt>
+[13 <./chapters/background/img/pohl-framework.png>]
+<chapters/background/img/SPLactivities.png, id=552, 525.46312pt x 469.755pt>
 File: chapters/background/img/SPLactivities.png Graphic file (type png)
 
 <use chapters/background/img/SPLactivities.png>
@@ -1348,8 +1359,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <./chapters/background/img/SPLactivities.png>]
-<chapters/background/img/SPLcoreasserts.png, id=539, 661.72218pt x 469.755pt>
+[14 <./chapters/background/img/SPLactivities.png>]
+<chapters/background/img/SPLcoreasserts.png, id=567, 661.72218pt x 469.755pt>
 File: chapters/background/img/SPLcoreasserts.png Graphic file (type png)
 
 <use chapters/background/img/SPLcoreasserts.png>
@@ -1363,8 +1374,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <./chapters/background/img/SPLcoreasserts.png>]
-<chapters/background/img/SPLproduct-development.png, id=552, 654.94687pt x 475.
+[15 <./chapters/background/img/SPLcoreasserts.png>]
+<chapters/background/img/SPLproduct-development.png, id=580, 654.94687pt x 475.
 7775pt>
 File: chapters/background/img/SPLproduct-development.png Graphic file (type png
 )
@@ -1382,21 +1393,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./chapters/background/img/SPLproduct-development.png>]
+[16 <./chapters/background/img/SPLproduct-development.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
+[17]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 26.96991pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
+[18]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 329.
@@ -1409,7 +1420,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17]
+[19]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 364.
@@ -1420,7 +1431,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
+[20]
 Package acronym Info: Label `acro:VM' newly defined as it shall be overridden
 although it is yet undefined on input line 418.
 
@@ -1430,14 +1441,41 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19])
+[21])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 26.96991pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20] (main.bbl [21
+[22] (main.bbl
+
+! Package inputenc Error: Unicode char \u8:·ti not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 ...sso Brasileiro de Software: Teoria e Pr·ti
+                                                  ca (CBSoft),
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:„od not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64   Sess„o d
+               e Ferramentas\/}.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[23
 
 
 ]
@@ -1447,21 +1485,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22]
+[24]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23]
+[25]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24])
+[26])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
 
 
@@ -1470,13 +1508,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25]
+[27]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
  (main.aux (chapters/introduction/main.aux) (chapters/background/main.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7F6D2CF8A9AA1A9F152B206823810BE3;1911.
+(rerunfilecheck)             Checksum: DA97A037B7853E4E176B9879CE1B7986;1911.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1486,11 +1524,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 199.
  ) 
 Here is how much of TeX's memory you used:
- 13108 strings out of 493675
- 188377 string characters out of 3143996
- 319369 words of memory out of 3000000
- 15728 multiletter control sequences out of 15000+200000
- 96697 words of font info for 277 fonts, out of 3000000 for 9000
+ 13128 strings out of 493675
+ 188606 string characters out of 3143996
+ 319565 words of memory out of 3000000
+ 15741 multiletter control sequences out of 15000+200000
+ 102222 words of font info for 281 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  41i,12n,45p,955b,575s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program File
@@ -1501,9 +1539,9 @@ rier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (45 pages, 1161128 bytes).
+Output written on main.pdf (47 pages, 1167902 bytes).
 PDF statistics:
- 831 PDF objects out of 1000 (max. 8388607)
- 165 named destinations out of 1000 (max. 500000)
- 52491 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 860 PDF objects out of 1000 (max. 8388607)
+ 170 named destinations out of 1000 (max. 500000)
+ 53515 words of extra memory for PDF output out of 61914 (max. 10000000)
 

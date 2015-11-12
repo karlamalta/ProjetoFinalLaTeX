@@ -4,20 +4,20 @@ A level-1 auxiliary file: chapters/background/main.aux
 The style file: natbib.bst
 Database file #1: references.bib
 Warning--entry type for "ribeiro2010" isn't style-file defined
---line 1204 of file references.bib
+--line 1211 of file references.bib
 Warning--entry type for "oliveira2009" isn't style-file defined
---line 1214 of file references.bib
+--line 1221 of file references.bib
 Warning--entry type for "machado:msc:2010" isn't style-file defined
---line 1224 of file references.bib
+--line 1231 of file references.bib
 Warning--entry type for "neto:msc:2010" isn't style-file defined
---line 1234 of file references.bib
+--line 1241 of file references.bib
 Warning--entry type for "filho:msc:2010" isn't style-file defined
---line 1244 of file references.bib
+--line 1251 of file references.bib
 Warning--entry type for "neiva:msc:2009" isn't style-file defined
---line 1262 of file references.bib
+--line 1269 of file references.bib
 Warning--entry type for "lisboa:msc:2008" isn't style-file defined
---line 1283 of file references.bib
-Repeated entry---line 1391 of file references.bib
+--line 1290 of file references.bib
+Repeated entry---line 1398 of file references.bib
  : @misc{birk2003report
  :                     ,
 I'm skipping whatever remains of this entry
