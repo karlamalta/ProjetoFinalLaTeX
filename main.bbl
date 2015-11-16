@@ -17,13 +17,6 @@ Almeida, E.~S., Alvaro, A., Lucr\'{e}dio, D., Garcia, V.~C., and Meira, S.
 \newblock In {\em IEEE International Conference on Information Reuse and
   Integration (IRI)\/}, pages 48--53, Las Vegas, NV, USA.
 
-\bibitem[Alvaro {\em et~al.}(2006)Alvaro, Almeida, and Meira]{Alvaro2006}
-Alvaro, A., Almeida, E.~S., and Meira, S.~L. (2006).
-\newblock A software component quality model: A preliminary evaluation.
-\newblock In {\em Proceedings of the 32nd EUROMICRO Conference on Software
-  Engineering and Advanced Applications (EUROMICRO'06)\/}, pages 28--37,
-  Washington, DC, USA. IEEE Computer Society.
-
 \bibitem[Bayer {\em et~al.}(2000)Bayer, Muthig, and
   Widen]{bayer2000customizable}
 Bayer, J., Muthig, D., and Widen, T. (2000).
@@ -51,12 +44,6 @@ Boutkova, E. (2011).
 \newblock In {\em Software Product Line Conference (SPLC), 2011 15th
   International\/}, pages 303--312. IEEE.
 
-\bibitem[Brito(2007)Brito]{Brito2007}
-Brito, K.~S. (2007).
-\newblock {\em LIFT: A Legacy InFormation retrieval Tool\/}.
-\newblock Master's thesis, Federal University of Pernambuco, Recife,
-  Pernambuco, Brazil.
-
 \bibitem[Cabral {\em et~al.}(2014)Cabral, Vale, and Almeida]{splice2014cbsof}
 Cabral, B., Vale, T., and Almeida, E. (2014).
 \newblock Splice: Software product lines integrated construction environment.
@@ -68,31 +55,6 @@ Capilla, R., Bosch, J., and ~, K. (2013).
 \newblock {\em Systems and Software Variability Management: Concepts, Tools and
   Experiences\/}.
 \newblock SpringerLink : B{\"u}cher. Springer.
-
-\bibitem[Cavalcanti {\em et~al.}(2011)Cavalcanti, de~Almeida, and
-  Meira]{Cavalcanti:2011:ERP:2000259.2000286}
-Cavalcanti, R. d.~O., de~Almeida, E.~S., and Meira, S.~R. (2011).
-\newblock Extending the riple-de process with quality attribute variability
-  realization.
-\newblock In {\em Proceedings of the Joint ACM SIGSOFT Conference -- QoSA and
-  ACM SIGSOFT Symposium -- ISARCS on Quality of Software Architectures -- QoSA
-  and Architecting Critical Systems -- ISARCS\/}, QoSA-ISARCS '11, pages
-  159--164, New York, NY, USA. ACM.
-
-\bibitem[Cavalcanti {\em et~al.}(2008)Cavalcanti, Martins, Almeida, and
-  Meira]{CavalcantiFISL2008}
-Cavalcanti, Y.~C., Martins, A.~C., Almeida, E.~S., and Meira, S. R.~L. (2008).
-\newblock Avoiding duplicate cr reports in open source software projects.
-\newblock In {\em The 9th International Free Software Forum (IFSF'08)\/}, Porto
-  Alegre, Brazil.
-
-\bibitem[Cavalcanti {\em et~al.}(2012)Cavalcanti, do~Carmo~Machado, da~Mota
-  Silveira~Neto, and Lobato]{CavalcantiInTech2012}
-Cavalcanti, Y.~C., do~Carmo~Machado, I., da~Mota Silveira~Neto, P.~A., and
-  Lobato, L.~L. (2012).
-\newblock {\em {Software Product Line - Advanced Topic}\/}, chapter Handling
-  Variability and Traceability over SPL Disciplines, pages 3--22.
-\newblock InTech.
 
 \bibitem[Chastek {\em et~al.}(2001)Chastek, Donohoe, Kang, and
   Thiel]{chastek2001product}
@@ -112,11 +74,6 @@ Clements, P. and Northrop, L. (2002).
 \newblock {\em Software Product Lines: Practices and Patterns\/}.
 \newblock The SEI series in software engineering. Addison Wesley Professional.
 
-\bibitem[da~Mota Silveira~Neto(2010)da~Mota Silveira~Neto]{neto:msc:2010}
-da~Mota Silveira~Neto, P.~A. (2010).
-\newblock A regression testing approach for software product lines
-  architectures.
-
 \bibitem[de~Oliveira {\em et~al.}(2014)de~Oliveira, Blanes, Gonzalez-Huerta,
   Insfran, Abrah{\~a}o, Cohen, and de~Almeida]{de2014defining}
 de~Oliveira, R.~P., Blanes, D., Gonzalez-Huerta, J., Insfran, E., Abrah{\~a}o,
@@ -125,39 +82,12 @@ de~Oliveira, R.~P., Blanes, D., Gonzalez-Huerta, J., Insfran, E., Abrah{\~a}o,
   approach.
 \newblock {\em Journal of Universal Computer Science\/}, {\bf 20}(5), 666--691.
 
-\bibitem[de~Oliveira(2009)de~Oliveira]{oliveira2009}
-de~Oliveira, T. H.~B. (2009).
-\newblock Riple-em: A process to manage evolution in software product lines.
-
-\bibitem[de~Souza~Filho(2010)de~Souza~Filho]{filho:msc:2010}
-de~Souza~Filho, E.~D. (2010).
-\newblock Riple-de: A domain design process for software product lines.
-
-\bibitem[do~Carmo~Machado(2010)do~Carmo~Machado]{machado:msc:2010}
-do~Carmo~Machado, I. (2010).
-\newblock Riple-te: A software product lines testing process.
-
-\bibitem[Durao(2008)Durao]{Durao2008}
-Durao, F.~A. (2008).
-\newblock {\em Semantic Layer Applied to a Source Code Search Engine\/}.
-\newblock Master's thesis, Federal University of Pernambuco, Recife,
-  Pernambuco, Brazil.
-
 \bibitem[Eriksson {\em et~al.}(2005)Eriksson, B{\"o}rstler, and
   Borg]{eriksson2005pluss}
 Eriksson, M., B{\"o}rstler, J., and Borg, K. (2005).
 \newblock The pluss approach--domain modeling with features, use cases and use
   case realizations.
 \newblock In {\em Software Product Lines\/}, pages 33--44. Springer.
-
-\bibitem[Garcia {\em et~al.}(2008)Garcia, Lisboa, {a}o, Almeida, and
-  Meira]{Garcia2008a}
-Garcia, V.~C., Lisboa, L.~B., {a}o, F. A.~D., Almeida, E.~S., and Meira, S.
-  R.~L. (2008).
-\newblock A lightweight technology change management approach to facilitating
-  reuse adoption.
-\newblock In {\em 2nd Brazilian Symposium on Software Components,
-  Architectures, and Reuse (SBCARS'08)\/}, Porto Alegre, Brazil.
 
 \bibitem[Griss {\em et~al.}(1998)Griss, Favaro, and
   Alessandro]{griss1998integrating}
@@ -166,37 +96,6 @@ Griss, M.~L., Favaro, J., and Alessandro, M.~D. (1998).
 \newblock In {\em Software Reuse, 1998. Proceedings. Fifth International
   Conference on\/}, pages 76--85. IEEE.
 
-\bibitem[Lisboa(2008)Lisboa]{lisboa:msc:2008}
-Lisboa, L.~B. (2008).
-\newblock Toolday - a tool for domain analysis.
-
-\bibitem[Martins {\em et~al.}(2008)Martins, Garcia, Almeida, and
-  Meira]{Martins2008}
-Martins, A.~C., Garcia, V.~C., Almeida, E.~S., and Meira, S. R.~L. (2008).
-\newblock Enhancing components search in a reuse environment using discovered
-  knowledge techniques.
-\newblock In {\em 2nd Brazilian Symposium on Software Components,
-  Architectures, and Reuse (SBCARS'08)\/}, Porto Alegre, Brazil.
-
-\bibitem[Mascena(2006)Mascena]{Mascena2006}
-Mascena, J. C. C.~P. (2006).
-\newblock {\em ADMIRE: Asset Development Metric-based Integrated Reuse
-  Environment\/}.
-\newblock Master's thesis, Federal Uniersity of Pernambuco, Recife, Pernambuco,
-  Brazil.
-
-\bibitem[Melo(2008)Melo]{CoreICSR}
-Melo, Buregio, E. S. A.~M. (2008).
-\newblock A reuse repository system: The core system.
-\newblock In {\em Proc. of ICSR\/}.
-
-\bibitem[Mendes(2008)Mendes]{Mendes2008}
-Mendes, R.~C. (2008).
-\newblock {\em Search and Retrieval of Reusable Source Code using Faceted
-  Classification Approach\/}.
-\newblock Master's thesis, Federal University of Pernambuco, Recife,
-  Pernambuco, Brazil.
-
 \bibitem[Moon {\em et~al.}(2005)Moon, Yeom, and Chae]{moon2005approach}
 Moon, M., Yeom, K., and Chae, H.~S. (2005).
 \newblock An approach to developing domain requirements as a core asset based
@@ -204,29 +103,11 @@ Moon, M., Yeom, K., and Chae, H.~S. (2005).
 \newblock {\em Software Engineering, IEEE Transactions on\/}, {\bf 31}(7),
   551--569.
 
-\bibitem[Moraes(2010)Moraes]{Moraes2010}
-Moraes, M. B.~S. (2010).
-\newblock {\em A scoping approach for software product lines\/}.
-\newblock Master's thesis, Federal University of Pernambuco, Recife,
-  Pernambuco, Brazil.
-
 \bibitem[Mussbacher {\em et~al.}(2012)Mussbacher, Ara{\'u}jo, Moreira, and
   Amyot]{mussbacher2012aourn}
 Mussbacher, G., Ara{\'u}jo, J., Moreira, A., and Amyot, D. (2012).
 \newblock Aourn-based modeling and analysis of software product lines.
 \newblock {\em Software Quality Journal\/}, {\bf 20}(3-4), 645--687.
-
-\bibitem[Nascimento(2008)Nascimento]{Nascimento2008}
-Nascimento, L.~M. (2008).
-\newblock {\em Core Assets Development in SPL - Towards a Practical Approach
-  for the Mobile Game Domain\/}.
-\newblock Master's thesis, Federal University of Pernambuco, Recife,
-  Pernambuco, Brazil.
-
-\bibitem[Neiva(2009)Neiva]{neiva:msc:2009}
-Neiva, D. F.~S. (2009).
-\newblock Riple-re: A requirements engineering process for software product
-  lines.
 
 \bibitem[Ossher {\em et~al.}(2000)Ossher, Harrison, and
   Tarr]{ossher2000software}
@@ -239,20 +120,6 @@ Ossher, H., Harrison, W., and Tarr, P. (2000).
 Pohl, K., B\"{o}ckle, G., and van~der Linden, F. (2005).
 \newblock {\em Software Product Line Engineering: Foundations, Principles, and
   Techniques\/}.
-
-\bibitem[Ribeiro(2010)Ribeiro]{ribeiro2010}
-Ribeiro, H. B.~G. (2010).
-\newblock An approach to implement core assets in service-oriented product
-  lines.
-
-\bibitem[Santos {\em et~al.}(2006)Santos, {a}o, Martins, Mendes, Melo, Garcia,
-  Almeida, and Meira]{Santos2006}
-Santos, E. C.~R., {a}o, F. A.~D., Martins, A.~C., Mendes, R., Melo, C., Garcia,
-  V.~C., Almeida, E.~S., and Meira, S. R.~L. (2006).
-\newblock Towards an effective context-aware proactive asset search and
-  retrieval tool.
-\newblock In {\em 6th Workshop on Component-Based Development (WDBC'06)\/},
-  pages 105--112, Recife, Pernambuco, Brazil.
 
 \bibitem[Schmid and Santana~de Almeida(2013)Schmid and Santana~de
   Almeida]{schmid2013product}
@@ -298,13 +165,13 @@ Thurimella, A.~K. and Bruegge, B. (2007).
 \newblock In {\em Requirements Engineering Conference, 2007. RE'07. 15th IEEE
   International\/}, pages 254--257. IEEE.
 
-\bibitem[Vanderlei {\em et~al.}(2007)Vanderlei, {a}o, Martins, Garcia, Almeida,
-  and Meira]{Vanderlei2007}
-Vanderlei, T.~A., {a}o, F. A.~D., Martins, A.~C., Garcia, V.~C., Almeida,
-  E.~S., and Meira, S. R.~L. (2007).
-\newblock A cooperative classification mechanism for search and retrieval
-  software components.
-\newblock In {\em Proceedings of the 2007 ACM symposium on Applied computing
-  (SAC'07)\/}, pages 866--871, New York, NY, USA. ACM.
+\bibitem[Vale {\em et~al.}(2014)Vale, Cabral, Alvim, Soares, Santos, Machado,
+  Souza, Freitas, and Almeida]{vale2014splice}
+Vale, T., Cabral, B., Alvim, L., Soares, L., Santos, A., Machado, I., Souza,
+  I., Freitas, I., and Almeida, E. (2014).
+\newblock Splice: A lightweight software product line development process for
+  small and medium size projects.
+\newblock In {\em Software Components, Architectures and Reuse (SBCARS), 2014
+  Eighth Brazilian Symposium on\/}, pages 42--52. IEEE.
 
 \end{thebibliography}

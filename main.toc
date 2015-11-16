@@ -6,23 +6,24 @@
 \contentsline {section}{\numberline {1.1}Motivation}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problem Statement}{2}{section.1.2}
 \contentsline {section}{\numberline {1.3}Related Work}{2}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Context}{3}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Outline of the Proposal}{4}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Out of Scope}{5}{section.1.4}
-\contentsline {section}{\numberline {1.5}Statement of the Contributions}{6}{section.1.5}
-\contentsline {section}{\numberline {1.6}Research Design}{6}{section.1.6}
-\contentsline {section}{\numberline {1.7}Dissertation Structure}{6}{section.1.7}
-\contentsline {chapter}{\numberline {2}An Overview on Software Product Lines, Requirements Engineering, SPL Requirements Engineering and SPLE Tool Support}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Software Product Lines}{9}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Introduction}{9}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}The Benefits}{10}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}The SPL Development Process}{12}{subsection.2.1.3}
-\contentsline {subsubsection}{Core Asset Development (Domain Engineering)}{14}{subsubsection*.17}
-\contentsline {subsubsection}{Product Development (Application Engineering)}{16}{subsubsection*.18}
-\contentsline {subsubsection}{Management}{17}{subsubsection*.19}
-\contentsline {section}{\numberline {2.2}Requirements Engineering}{17}{section.2.2}
-\contentsline {section}{\numberline {2.3}SPL Requirements Engineering}{18}{section.2.3}
-\contentsline {subsubsection}{Risks and Challenges}{20}{subsubsection*.20}
-\contentsline {section}{\numberline {2.4}SPLE Tool Support}{21}{section.2.4}
-\contentsline {section}{\numberline {2.5}Summary}{22}{section.2.5}
-\contentsline {chapter}{Bibliography}{23}{section.2.5}
+\contentsline {section}{\numberline {1.4}Out of Scope}{3}{section.1.4}
+\contentsline {section}{\numberline {1.5}Statement of the Contributions}{4}{section.1.5}
+\contentsline {section}{\numberline {1.6}Research Design}{4}{section.1.6}
+\contentsline {section}{\numberline {1.7}Dissertation Structure}{4}{section.1.7}
+\contentsline {chapter}{\numberline {2}An Overview on Software Product Lines, Requirements Engineering, SPL Requirements Engineering and SPLE Tool Support}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Software Product Lines}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Introduction}{7}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The Benefits}{8}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}The SPL Development Process}{10}{subsection.2.1.3}
+\contentsline {subsubsection}{Core Asset Development (Domain Engineering)}{12}{subsubsection*.16}
+\contentsline {subsubsection}{Product Development (Application Engineering)}{14}{subsubsection*.17}
+\contentsline {subsubsection}{Management}{15}{subsubsection*.18}
+\contentsline {section}{\numberline {2.2}Requirements Engineering}{15}{section.2.2}
+\contentsline {section}{\numberline {2.3}SPL Requirements Engineering}{16}{section.2.3}
+\contentsline {subsubsection}{Risks and Challenges}{18}{subsubsection*.19}
+\contentsline {section}{\numberline {2.4}SPLE Tool Support}{19}{section.2.4}
+\contentsline {section}{\numberline {2.5}Summary}{20}{section.2.5}
+\contentsline {chapter}{Bibliography}{21}{section.2.5}
+\contentsline {chapter}{Appendix}{24}{section*.23}
+\contentsline {chapter}{\numberline {A}Case Study Instruments}{27}{appendix.A}
+\contentsline {section}{\numberline {A.1}Form for Expert Survey}{27}{section.A.1}
