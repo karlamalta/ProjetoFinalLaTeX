@@ -1,7 +1,7 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{xv}{chapter*.4}
-\contentsline {chapter}{List of Tables}{xvii}{chapter*.5}
-\contentsline {chapter}{List of Acronyms}{xix}{chapter*.6}
+\contentsline {chapter}{List of Figures}{xvii}{chapter*.4}
+\contentsline {chapter}{List of Tables}{xix}{chapter*.5}
+\contentsline {chapter}{List of Acronyms}{xxi}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problem Statement}{2}{section.1.2}
@@ -20,10 +20,60 @@
 \contentsline {subsubsection}{Management}{15}{subsubsection*.18}
 \contentsline {section}{\numberline {2.2}Requirements Engineering}{15}{section.2.2}
 \contentsline {section}{\numberline {2.3}SPL Requirements Engineering}{16}{section.2.3}
-\contentsline {subsubsection}{Risks and Challenges}{18}{subsubsection*.19}
+\contentsline {subsection}{\numberline {2.3.1}Risks and Challenges}{18}{subsection.2.3.1}
 \contentsline {section}{\numberline {2.4}SPLE Tool Support}{19}{section.2.4}
 \contentsline {section}{\numberline {2.5}Summary}{20}{section.2.5}
-\contentsline {chapter}{Bibliography}{21}{section.2.5}
-\contentsline {chapter}{Appendix}{24}{section*.23}
-\contentsline {chapter}{\numberline {A}Case Study Instruments}{27}{appendix.A}
-\contentsline {section}{\numberline {A.1}Form for Expert Survey}{27}{section.A.1}
+\contentsline {chapter}{\numberline {3}SPLICE-FeDRE: a SPL Domain Requirements Specification Tool}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}FeDRE Overview}{21}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Scoping}{22}{subsection.3.2.1}
+\contentsline {subsubsection}{Existing Assets}{22}{subsubsection*.21}
+\contentsline {subsubsection}{Feature Model}{23}{subsubsection*.22}
+\contentsline {subsubsection}{Feature Specification}{23}{subsubsection*.23}
+\contentsline {subsubsection}{Product Map}{23}{subsubsection*.24}
+\contentsline {subsection}{\numberline {3.2.2}Requirements Specification for Domain Engineering}{23}{subsection.3.2.2}
+\contentsline {subsubsection}{Glossary}{23}{subsubsection*.25}
+\contentsline {subsubsection}{Functional Requirements}{23}{subsubsection*.26}
+\contentsline {subsubsection}{Traceability Matrix}{24}{subsubsection*.27}
+\contentsline {subsection}{\numberline {3.2.3}Guidelines for Specifying SPL Functional Requirements}{24}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}SPLICE Overview}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Metamodel}{26}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Main Functionalities}{26}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}SPLICE-FeDRE Requirements}{27}{section.3.4}
+\contentsline {section}{\numberline {3.5}SPLICE-FeDRE Implementation}{28}{section.3.5}
+\contentsline {section}{\numberline {3.6}SPLICE-FeDRE in action}{29}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Feature Specification}{29}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}FeDRE Guidelines}{30}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Use Case Specification}{31}{subsection.3.6.3}
+\contentsline {section}{\numberline {3.7}Summary}{32}{section.3.7}
+\contentsline {chapter}{\numberline {4}SPLICE-FeDRE Evaluation}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1} Introduction }{33}{section.4.1}
+\contentsline {section}{\numberline {4.2} Definition }{33}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Context}{33}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Research Questions}{34}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Data collection}{35}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Survey Design}{35}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Developing the Survey Instrument}{35}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Evaluating the Survey Instrument}{36}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Expert Opinion}{36}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Analyzing the data}{37}{subsection.4.3.5}
+\contentsline {section}{\numberline {4.4}Results}{37}{section.4.4}
+\contentsline {subsubsection}{Tool usage difficulties}{37}{subsubsection*.31}
+\contentsline {subsubsection}{Tool interference in workflow}{38}{subsubsection*.32}
+\contentsline {subsubsection}{Assets creation difficulties}{38}{subsubsection*.33}
+\contentsline {subsubsection}{Blame changes}{38}{subsubsection*.34}
+\contentsline {subsubsection}{Traceability}{38}{subsubsection*.35}
+\contentsline {subsubsection}{Expected traceability links}{38}{subsubsection*.36}
+\contentsline {subsubsection}{Traceability links navigation}{39}{subsubsection*.37}
+\contentsline {subsubsection}{Reporting}{39}{subsubsection*.38}
+\contentsline {subsubsection}{Tool Helpfulness}{39}{subsubsection*.39}
+\contentsline {subsubsection}{Positive points}{40}{subsubsection*.40}
+\contentsline {subsubsection}{Negative points}{40}{subsubsection*.41}
+\contentsline {subsubsection}{Suggestions}{40}{subsubsection*.42}
+\contentsline {section}{\numberline {4.5}Threats to validity}{41}{section.4.5}
+\contentsline {section}{\numberline {4.6}Findings}{41}{section.4.6}
+\contentsline {section}{\numberline {4.7}Summary}{42}{section.4.7}
+\contentsline {chapter}{Bibliography}{43}{section.4.7}
+\contentsline {chapter}{Appendix}{46}{section*.44}
+\contentsline {chapter}{\numberline {A}Evaluation Instruments}{49}{appendix.A}
+\contentsline {section}{\numberline {A.1}Form for Expert Survey}{49}{section.A.1}
