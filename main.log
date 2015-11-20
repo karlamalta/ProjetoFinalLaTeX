@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.2)  19 NOV 2015 12:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.2)  20 NOV 2015 00:22
 entering extended mode
 **main.tex
 (main.tex
@@ -902,7 +902,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (main.aux (chapters/introduction/main.aux) (chapters/background/main.aux)
 (chapters/proposed_solution/main.aux) (chapters/experiment/main.aux)
-(appendix/experiment-instruments.aux))
+(chapters/conclusion/main.aux) (appendix/experiment-instruments.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
 LaTeX Font Info:    ... okay on input line 102.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
@@ -975,7 +975,7 @@ LaTeX Info: Redefining \nameref on input line 102.
 
 (main.out) (main.out)
 \@outlinefile=\write5
- <cinlogo.png, id=314, 171.039pt x 281.853pt>
+ <cinlogo.png, id=294, 171.039pt x 281.853pt>
 File: cinlogo.png Graphic file (type png)
 
 <use cinlogo.png>
@@ -983,7 +983,7 @@ Package pdftex.def Info: cinlogo.png used on input line 105.
 (pdftex.def)             Requested size: 111.17403pt x 183.20227pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 105.
- <ufpelogo.png, id=316, 289.3209pt x 446.1468pt>
+ <ufpelogo.png, id=296, 289.3209pt x 446.1468pt>
 File: ufpelogo.png Graphic file (type png)
 
 <use ufpelogo.png>
@@ -1226,10 +1226,6 @@ LaTeX Warning: Reference `ch:tool' on page 4 undefined on input line 143.
 LaTeX Warning: Reference `ch:survey' on page 4 undefined on input line 147.
 
 
-LaTeX Warning: Reference `ch:conclusion' on page 4 undefined on input line 150.
-
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
@@ -1265,7 +1261,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<chapters/background/img/splcosts.png, id=703, 283.81032pt x 178.41656pt>
+<chapters/background/img/splcosts.png, id=677, 283.81032pt x 178.41656pt>
 File: chapters/background/img/splcosts.png Graphic file (type png)
 
 <use chapters/background/img/splcosts.png>
@@ -1282,7 +1278,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
-<chapters/background/img/spl-timetomarket.png, id=717, 414.79968pt x 278.54062p
+<chapters/background/img/spl-timetomarket.png, id=691, 414.79968pt x 278.54062p
 t>
 File: chapters/background/img/spl-timetomarket.png Graphic file (type png)
  <use chapters/background/img/spl-timetomarket.png>
@@ -1297,7 +1293,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9 <./chapters/background/img/splcosts.png>]
-<chapters/background/img/pohl-framework.png, id=735, 491.58656pt x 374.90062pt>
+<chapters/background/img/pohl-framework.png, id=709, 491.58656pt x 374.90062pt>
 File: chapters/background/img/pohl-framework.png Graphic file (type png)
 <use chapters/background/img/pohl-framework.png>
 Package pdftex.def Info: chapters/background/img/pohl-framework.png used on inp
@@ -1322,7 +1318,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 <./chapters/background/img/pohl-framework.png>]
-<chapters/background/img/SPLactivities.png, id=760, 525.46312pt x 469.755pt>
+<chapters/background/img/SPLactivities.png, id=734, 525.46312pt x 469.755pt>
 File: chapters/background/img/SPLactivities.png Graphic file (type png)
 
 <use chapters/background/img/SPLactivities.png>
@@ -1337,7 +1333,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12 <./chapters/background/img/SPLactivities.png>]
-<chapters/background/img/SPLcoreasserts.png, id=775, 661.72218pt x 469.755pt>
+<chapters/background/img/SPLcoreasserts.png, id=749, 661.72218pt x 469.755pt>
 File: chapters/background/img/SPLcoreasserts.png Graphic file (type png)
 
 <use chapters/background/img/SPLcoreasserts.png>
@@ -1352,7 +1348,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13 <./chapters/background/img/SPLcoreasserts.png>]
-<chapters/background/img/SPLproduct-development.png, id=788, 654.94687pt x 475.
+<chapters/background/img/SPLproduct-development.png, id=762, 654.94687pt x 475.
 7775pt>
 File: chapters/background/img/SPLproduct-development.png Graphic file (type png
 )
@@ -1430,8 +1426,8 @@ Chapter 3.
 
 
 ]
-<chapters/proposed_solution/img/captures/fedre_activities.png, id=1008, 4904.32
-25pt x 3293.30376pt>
+<chapters/proposed_solution/img/captures/fedre_activities.png, id=982, 4904.322
+5pt x 3293.30376pt>
 File: chapters/proposed_solution/img/captures/fedre_activities.png Graphic file
  (type png)
 
@@ -1458,7 +1454,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23]
-<chapters/proposed_solution/img/captures/fedre_guide.png, id=1037, 831.105pt x 
+<chapters/proposed_solution/img/captures/fedre_guide.png, id=1011, 831.105pt x 
 1522.18687pt>
 File: chapters/proposed_solution/img/captures/fedre_guide.png Graphic file (typ
 e png)
@@ -1515,7 +1511,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [28]
-<chapters/proposed_solution/img/captures/assets.PNG, id=1107, 979.40906pt x 435
+<chapters/proposed_solution/img/captures/assets.PNG, id=1081, 979.40906pt x 435
 .12563pt>
 File: chapters/proposed_solution/img/captures/assets.PNG Graphic file (type png
 )
@@ -1524,7 +1520,7 @@ Package pdftex.def Info: chapters/proposed_solution/img/captures/assets.PNG use
 d on input line 269.
 (pdftex.def)             Requested size: 398.33858pt x 176.96852pt.
 
-<chapters/proposed_solution/img/captures/add_feature.PNG, id=1110, 979.40906pt 
+<chapters/proposed_solution/img/captures/add_feature.PNG, id=1084, 979.40906pt 
 x 433.62pt>
 File: chapters/proposed_solution/img/captures/add_feature.PNG Graphic file (typ
 e png)
@@ -1540,7 +1536,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29 <./chapters/proposed_solution/img/captures/assets.PNG>]
-<chapters/proposed_solution/img/captures/start_fedre.PNG, id=1119, 938.75719pt 
+<chapters/proposed_solution/img/captures/start_fedre.PNG, id=1093, 938.75719pt 
 x 271.76532pt>
 File: chapters/proposed_solution/img/captures/start_fedre.PNG Graphic file (typ
 e png)
@@ -1549,7 +1545,7 @@ Package pdftex.def Info: chapters/proposed_solution/img/captures/start_fedre.PN
 G used on input line 300.
 (pdftex.def)             Requested size: 398.33858pt x 115.3142pt.
 
-<chapters/proposed_solution/img/captures/branch1.PNG, id=1121, 979.40906pt x 41
+<chapters/proposed_solution/img/captures/branch1.PNG, id=1095, 979.40906pt x 41
 5.5525pt>
 File: chapters/proposed_solution/img/captures/branch1.PNG Graphic file (type pn
 g)
@@ -1569,7 +1565,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [30 <./chapters/proposed_solution/img/captures/add_feature.PNG> <./chapters/pro
 posed_solution/img/captures/start_fedre.PNG>]
-<chapters/proposed_solution/img/captures/add_use_case.PNG, id=1130, 980.91469pt
+<chapters/proposed_solution/img/captures/add_use_case.PNG, id=1104, 980.91469pt
  x 415.5525pt>
 File: chapters/proposed_solution/img/captures/add_use_case.PNG Graphic file (ty
 pe png)
@@ -1597,44 +1593,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [32] (chapters/experiment/main.tex
 Chapter 4.
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 ... of Software Engineering (I.N.E.S)â€�
-                                                  , a Software Engineering r...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<chapters/experiment/img/old-req.PNG, id=1156, 399.74344pt x 246.9225pt>
-File: chapters/experiment/img/old-req.PNG Graphic file (type png)
-
-<use chapters/experiment/img/old-req.PNG>
-Package pdftex.def Info: chapters/experiment/img/old-req.PNG used on input line
- 20.
-(pdftex.def)             Requested size: 284.52756pt x 175.76077pt.
- [33
+[33
 
 
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34 <./chapters/experiment/img/old-req.PNG>]
+[34]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 71.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1648,242 +1622,42 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
-Overfull \hbox (7.69661pt too wide) in paragraph at lines 97--103
- [][] 
- []
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 119.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 ...ent should be the initial screenâ€�}
-                                                  . Actually the initial scr...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.123 ...sserts during the SPL lifecycle.â€�}
-                                                  , interestingly another ex...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.123 ... be used in several SPL projectsâ€�}
-                                                  .
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+[36])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37]
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.135 ...perts replied \textit{â€œYesâ€�}
-                                                  . We asked for justificati...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.135 ...ion (Products with this Feature)â€�}
-                                                  .
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.136 ...to analyze the impact of changesâ€�}
-                                                  . From the answer of the r...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 ...efine valueâ€™ when clickedâ€�}
-                                                  .
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[38]
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.145 ...ause when specifying new assets.â€�}
-                                                  . This question have a pro...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 ... to make modification in the SPLâ€�}
-                                                  . The \ac{SPLICE} do have ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 ...lps in dealing with this problemâ€�}
-                                                  .
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \vbox (badness 3803) has occurred while \output is active []
+[37] (chapters/conclusion/main.tex [38
 
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+]
+Chapter 5.
+Package acronym Info: Label `acro:ALM' newly defined as it shall be overridden
+although it is yet undefined on input line 6.
+
+Package acronym Warning: Acronym `ALM' is not defined on input line 6.
+
+
+Package acronym Warning: Acronym `ALM' is not defined on input line 6.
+
+
+Package acronym Warning: Acronym `ALM' is not defined on input line 6.
+
+Package acronym Info: Label `acro:CASE' newly defined as it shall be overridden
+
+although it is yet undefined on input line 6.
+
+Package acronym Warning: Acronym `CASE' is not defined on input line 6.
+
+
+Package acronym Warning: Acronym `CASE' is not defined on input line 6.
 
 [39]
 
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.173 ...ion of the tool must be deployedâ€�}
-                                                  .
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 ..., the derivation is not completeâ€�}
-                                                  .
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 ...ve assets for a specific projectâ€�}
-                                                  . The other expert suggest...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 ... a feature, user story and so onâ€�}
-                                                  .
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.182 ...tit{â€œMetamodel flexibilityâ€�}
-                                                  , we implement this on a c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package acronym Warning: Acronym `ALM' is not defined on input line 16.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1891,35 +1665,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40]
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.212 ...of Software Engineering (I.N.E.S)â€�
-                                                  , and a survey was adminis...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+[40])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41])
+[41] (main.bbl [42
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
-[42] (main.bbl
+]
 
 ! Package inputenc Error: Unicode char \u8:�ti not set up for use with LaTeX.
 
@@ -1946,22 +1702,20 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[43
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 148--151
-[][]\T1/ptm/m/n/12 (+20) Python Soft-ware Foun-da-tion (2014).  Python Pro-gram
--ming Lan-guage.
- []
-
+[43]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44])
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
+[][]\T1/ptm/m/n/12 (+20) Python Soft-ware Foun-da-tion (2014).  Python Pro-gram
+-ming Lan-guage.
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2056,11 +1810,11 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (main.aux (chapters/introduction/main.aux) (chapters/background/main.aux)
 (chapters/proposed_solution/main.aux) (chapters/experiment/main.aux)
-(appendix/experiment-instruments.aux))
+(chapters/conclusion/main.aux) (appendix/experiment-instruments.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1E6BDC38741BA1EC7DADEA77073B9EBF;5637.
+(rerunfilecheck)             Checksum: 45AE6D47CC83A3AD269E0DE88A3FB729;5155.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2071,13 +1825,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
  ) 
 Here is how much of TeX's memory you used:
- 13436 strings out of 493675
- 194481 string characters out of 3143996
- 322304 words of memory out of 3000000
- 15909 multiletter control sequences out of 15000+200000
- 120348 words of font info for 332 fonts, out of 3000000 for 9000
+ 13351 strings out of 493675
+ 193228 string characters out of 3143996
+ 323091 words of memory out of 3000000
+ 15871 multiletter control sequences out of 15000+200000
+ 105430 words of font info for 283 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,12n,51p,824b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,51p,704b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program File
 s/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
@@ -2087,9 +1841,9 @@ w/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on main.pdf (73 pages, 3103687 bytes).
+Output written on main.pdf (73 pages, 3076608 bytes).
 PDF statistics:
- 1362 PDF objects out of 1440 (max. 8388607)
- 231 named destinations out of 1000 (max. 500000)
- 64193 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 1329 PDF objects out of 1440 (max. 8388607)
+ 227 named destinations out of 1000 (max. 500000)
+ 54420 words of extra memory for PDF output out of 61914 (max. 10000000)
 

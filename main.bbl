@@ -76,14 +76,6 @@ Cheng, B.~H. and Atlee, J.~M. (2007).
 \newblock In {\em 2007 Future of Software Engineering\/}, pages 285--303. IEEE
   Computer Society.
 
-\bibitem[Chhibber {\em et~al.}(1992)Chhibber, Apostolakis, and
-  Okrent]{Chhibber1992}
-Chhibber, S., Apostolakis, G., and Okrent, D. (1992).
-\newblock A taxonomy of issues related to the use of expert judgments in
-  probabilistic safety studies.
-\newblock {\em Reliability Engineering System Safety\/}, {\bf 38}(1–2), 27 --
-  45.
-
 \bibitem[Clements and Northrop(2002)Clements and
   Northrop]{clements2002software}
 Clements, P. and Northrop, L. (2002).
@@ -98,6 +90,14 @@ de~Oliveira, R.~P., Blanes, D., Gonzalez-Huerta, J., Insfran, E., Abrah{\~a}o,
   approach.
 \newblock {\em Journal of Universal Computer Science\/}, {\bf 20}(5), 666--691.
 
+\bibitem[Dhungana {\em et~al.}(2007)Dhungana, Rabiser, Gr\"{u}nbacher, and
+  Neumayer]{Dhungana2007}
+Dhungana, D., Rabiser, R., Gr\"{u}nbacher, P., and Neumayer, T. (2007).
+\newblock Integrated tool support for software product line engineering.
+\newblock In {\em Proceedings of the Twenty-second IEEE/ACM International
+  Conference on Automated Software Engineering\/}, ASE '07, pages 533--534, New
+  York, NY, USA. ACM.
+
 \bibitem[Eriksson {\em et~al.}(2005)Eriksson, B{\"o}rstler, and
   Borg]{eriksson2005pluss}
 Eriksson, M., B{\"o}rstler, J., and Borg, K. (2005).
@@ -111,6 +111,13 @@ Griss, M.~L., Favaro, J., and Alessandro, M.~D. (1998).
 \newblock Integrating feature modeling with the rseb.
 \newblock In {\em Software Reuse, 1998. Proceedings. Fifth International
   Conference on\/}, pages 76--85. IEEE.
+
+\bibitem[K{\"a}{\"a}ri{\"a}inen and teknillinen
+  tutkimuskeskus(2011)K{\"a}{\"a}ri{\"a}inen and teknillinen
+  tutkimuskeskus]{kaariainen2011towards}
+K{\"a}{\"a}ri{\"a}inen, J. and teknillinen tutkimuskeskus, V. (2011).
+\newblock {\em Towards an Application Lifecycle Management Framework\/}.
+\newblock VTT julkaisuja. VTT.
 
 \bibitem[Kitchenham and Pfleeger(2008)Kitchenham and Pfleeger]{Kitchenham2008}
 Kitchenham, B. and Pfleeger, S. (2008).

@@ -47,33 +47,28 @@
 \contentsline {subsection}{\numberline {3.6.3}Use Case Specification}{31}{subsection.3.6.3}
 \contentsline {section}{\numberline {3.7}Summary}{32}{section.3.7}
 \contentsline {chapter}{\numberline {4}SPLICE-FeDRE Evaluation}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1} Introduction }{33}{section.4.1}
-\contentsline {section}{\numberline {4.2} Definition }{33}{section.4.2}
+\contentsline {section}{\numberline {4.1}Introduction}{33}{section.4.1}
+\contentsline {section}{\numberline {4.2}Definition}{33}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Context}{33}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Research Questions}{34}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Data collection}{35}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Survey Design}{35}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Developing the Survey Instrument}{35}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Evaluating the Survey Instrument}{36}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Expert Opinion}{36}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Analyzing the data}{37}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Results}{37}{section.4.4}
-\contentsline {subsubsection}{Tool usage difficulties}{37}{subsubsection*.31}
-\contentsline {subsubsection}{Tool interference in workflow}{38}{subsubsection*.32}
-\contentsline {subsubsection}{Assets creation difficulties}{38}{subsubsection*.33}
-\contentsline {subsubsection}{Blame changes}{38}{subsubsection*.34}
-\contentsline {subsubsection}{Traceability}{38}{subsubsection*.35}
-\contentsline {subsubsection}{Expected traceability links}{38}{subsubsection*.36}
-\contentsline {subsubsection}{Traceability links navigation}{39}{subsubsection*.37}
-\contentsline {subsubsection}{Reporting}{39}{subsubsection*.38}
-\contentsline {subsubsection}{Tool Helpfulness}{39}{subsubsection*.39}
-\contentsline {subsubsection}{Positive points}{40}{subsubsection*.40}
-\contentsline {subsubsection}{Negative points}{40}{subsubsection*.41}
-\contentsline {subsubsection}{Suggestions}{40}{subsubsection*.42}
-\contentsline {section}{\numberline {4.5}Threats to validity}{41}{section.4.5}
-\contentsline {section}{\numberline {4.6}Findings}{41}{section.4.6}
-\contentsline {section}{\numberline {4.7}Summary}{42}{section.4.7}
-\contentsline {chapter}{Bibliography}{43}{section.4.7}
-\contentsline {chapter}{Appendix}{46}{section*.44}
+\contentsline {subsection}{\numberline {4.2.2}Research Questions}{33}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Data collection}{34}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Survey Design}{34}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Developing the Survey Instrument}{34}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Analyzing the data}{34}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Results}{35}{section.4.4}
+\contentsline {subsubsection}{Respondents experience}{35}{subsubsection*.31}
+\contentsline {subsubsection}{Tool usage difficulties}{35}{subsubsection*.32}
+\contentsline {subsubsection}{Tool Helpfulness}{35}{subsubsection*.33}
+\contentsline {subsubsection}{Positive points}{36}{subsubsection*.34}
+\contentsline {subsubsection}{Negative points}{36}{subsubsection*.35}
+\contentsline {subsubsection}{Suggestions}{36}{subsubsection*.36}
+\contentsline {section}{\numberline {4.5}Threats to validity}{36}{section.4.5}
+\contentsline {section}{\numberline {4.6}Findings}{37}{section.4.6}
+\contentsline {section}{\numberline {4.7}Summary}{37}{section.4.7}
+\contentsline {chapter}{\numberline {5}Conclusion}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}Research Contribution}{40}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Work}{40}{section.5.2}
+\contentsline {chapter}{Bibliography}{42}{section.5.2}
+\contentsline {chapter}{Appendix}{46}{section*.40}
 \contentsline {chapter}{\numberline {A}Evaluation Instruments}{49}{appendix.A}
 \contentsline {section}{\numberline {A.1}Form for Expert Survey}{49}{section.A.1}
