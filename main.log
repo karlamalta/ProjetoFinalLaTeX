@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.2)  20 NOV 2015 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.2)  20 NOV 2015 09:45
 entering extended mode
 **main.tex
 (main.tex
@@ -1635,47 +1635,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 5.
-Package acronym Info: Label `acro:ALM' newly defined as it shall be overridden
-although it is yet undefined on input line 6.
 
-Package acronym Warning: Acronym `ALM' is not defined on input line 6.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Package acronym Warning: Acronym `ALM' is not defined on input line 6.
-
-
-Package acronym Warning: Acronym `ALM' is not defined on input line 6.
-
-Package acronym Info: Label `acro:CASE' newly defined as it shall be overridden
-
-although it is yet undefined on input line 6.
-
-Package acronym Warning: Acronym `CASE' is not defined on input line 6.
-
-
-Package acronym Warning: Acronym `CASE' is not defined on input line 6.
-
-[39]
-
-Package acronym Warning: Acronym `ALM' is not defined on input line 16.
-
+ [39])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[41] (main.bbl [42
-
-
-]
+[40] (main.bbl
 
 ! Package inputenc Error: Unicode char \u8:áti not set up for use with LaTeX.
 
@@ -1702,33 +1672,35 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[43]
+[41
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
-[44]
-Underfull \hbox (badness 10000) in paragraph at lines 155--158
+]
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
 [][]\T1/ptm/m/n/12 (+20) Python Soft-ware Foun-da-tion (2014).  Python Pro-gram
 -ming Lan-guage.
  []
 
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45] [46
+[42])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43] [44
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 197.
- [47] [48] (appendix/experiment-instruments.tex
+ [45] [46] (appendix/experiment-instruments.tex
 Appendix A.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 51--198
@@ -1785,7 +1757,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--198
 
  []
 
-[49
+[47
 
 
 ]
@@ -1798,14 +1770,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50]
+[48]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51]
+[49]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (main.aux (chapters/introduction/main.aux) (chapters/background/main.aux)
@@ -1814,7 +1786,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 45AE6D47CC83A3AD269E0DE88A3FB729;5155.
+(rerunfilecheck)             Checksum: A217AEE05BF287F50F9B64126B962455;5155.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1825,13 +1797,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
  ) 
 Here is how much of TeX's memory you used:
- 13351 strings out of 493675
- 193228 string characters out of 3143996
- 323091 words of memory out of 3000000
- 15871 multiletter control sequences out of 15000+200000
- 105430 words of font info for 283 fonts, out of 3000000 for 9000
+ 13324 strings out of 493675
+ 192933 string characters out of 3143996
+ 322815 words of memory out of 3000000
+ 15859 multiletter control sequences out of 15000+200000
+ 104755 words of font info for 277 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,12n,51p,704b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,51p,372b,529s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program File
 s/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
@@ -1841,9 +1813,9 @@ w/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on main.pdf (73 pages, 3076608 bytes).
+Output written on main.pdf (71 pages, 3073224 bytes).
 PDF statistics:
- 1329 PDF objects out of 1440 (max. 8388607)
- 227 named destinations out of 1000 (max. 500000)
+ 1318 PDF objects out of 1440 (max. 8388607)
+ 221 named destinations out of 1000 (max. 500000)
  54420 words of extra memory for PDF output out of 61914 (max. 10000000)
 
